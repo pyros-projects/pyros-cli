@@ -1,0 +1,100 @@
+Natural sunlight from behind the subject (Backlighting).
+Softbox lighting from the front (Frontal Softbox).
+Ring light positioned directly in front of the subject (Ring Light).
+Side lighting from a window (Window Side Light).
+Overhead lighting with a single softbox (Overhead Softbox).
+Fill light using a reflector (Fill Reflector).
+Beauty dish positioned above the subject (Beauty Dish).
+Colored gels on strobes for creative lighting effects (Colored Gels).
+Clamshell lighting with two softboxes (Clamshell Setup).
+Rembrandt lighting with one side of the face in shadow (Rembrandt Lighting).
+Butterfly lighting with a central light source positioned above (Butterfly Lighting).
+Strip lights on each side of the subject for a narrow highlight (Strip Lights).
+Window light diffused with a sheer curtain (Diffused Window Light).
+Rim lighting from the back to create a glowing edge effect (Rim Lighting).
+Softbox lighting from below for an upward flattering effect (Upward Softbox).
+Colored LED lights to create an artistic ambiance (Colored LED Lights).
+Overhead softbox combined with a reflector (Overhead with Reflector).
+Sunlight diffused through a sheer curtain or fabric (Diffused Sunlight).
+Spotlight on the subject with a dark background (Spotlight Effect).
+Studio flash with a grid for directional light (Grid Lighting).
+Light painting with handheld LED lights (Light Painting).
+Backlighting with fairy lights for a dreamy effect (Fairy Lights Backlight).
+Flash bounced off a wall for soft indirect lighting (Bounced Flash).
+Low-key lighting with a single spotlight on the subject (Low-Key Spotlight).
+Strobe lights with colored gels for a dynamic look (Dynamic Strobe).
+Softbox with a grid to control light spill (Controlled Softbox).
+Snooted flash to concentrate light on a specific area (Snooted Flash).
+Sunlight filtered through leaves or branches (Sunlight Through Foliage).
+Reflected sunlight from a shiny surface (Reflected Sunlight).
+Candlelight for a warm and intimate ambiance (Candlelight).
+Flash with a colored gel on the background for separation (Colored Background).
+String lights as a bokeh backdrop (Bokeh String Lights).
+Light bounced off a white wall for soft and even illumination (Bounced Wall Light).
+Softbox placed at a 45-degree angle for flattering light (45-Degree Softbox).
+Flash with a colored gel for creative portrait effects (Colored Flash).
+Umbrella lighting for a wide and soft illumination (Umbrella Lighting).
+Hard light from a spotlight for dramatic effect (Hard Spot Light).
+Colored neon lights for an edgy and futuristic look (Colored Neon Lights).
+Sparklers held by the subject for a dynamic and energetic effect (Sparklers).
+Overhead neon lights for a vibrant and atmospheric setting (Overhead Neon).
+Laser light for a futuristic and otherworldly feel (Laser Lighting).
+Reflected light from a metallic surface (Reflected Metallic Light).
+Softbox with a grid for directional but controlled light (Grid Softbox).
+Strobe light combined with fog or smoke for added drama (Strobe with Fog).
+Flash with a diffuser for soft and flattering light (Diffused Flash).
+Colored LED panels as a creative background (Colored LED Panels).
+String lights wrapped around the subject for a whimsical look (Wrapped String Lights).
+Continuous light with a softbox for video shoots (Continuous Softbox).
+Reflective surface for interesting light patterns (Reflected Patterns).
+Gelled strobes with contrasting colors for a bold effect (Contrasting Gels).
+Light through a prism or crystal for a rainbow effect (Rainbow Light).
+Sunlight filtered through blinds or window shutters (Filtered Sunlight).
+Light through a glass bottle or jar for texture (Bottled Light).
+Overhead chandelier light for an elegant and luxurious look (Chandelier Light).
+Flash with a colored gel for creative background illumination (Colored Background Flash).
+Neon sign lights for a retro and urban atmosphere (Neon Sign Lights).
+Softbox with a grid to create controlled highlights (Grid Highlights).
+Lanterns or candles for a warm and cozy setting (Lantern/Candle Light).
+LED strips positioned around the subject for a futuristic look (LED Strips).
+Softbox with a diffuser for an extra soft and even light (Softbox with Diffuser).
+Spotlight with a snoot for a focused beam of light (Focused Spotlight).
+Window light with blinds casting interesting shadows (Blinds Shadow).
+Light through water droplets or a prism for artistic refraction (Refraction Light).
+Flash combined with a slow shutter speed for light trails (Light Trails).
+Softbox with a honeycomb grid for controlled spread of light (Honeycomb Softbox).
+Flash bounced off a reflector for a softer fill light (Bounced Fill Flash).
+Sunlight through a lattice or mesh for patterned shadows (Lattice/Mesh Light).
+Light through fog or mist for an ethereal and mysterious effect (Fog/Mist Light).
+Softbox positioned low to create a dramatic upward lighting effect (Low Softbox).
+Flash with a grid for a narrow beam of light (Grid Flash).
+Softbox positioned high for a downward lighting effect (High Softbox).
+Strobe light with a snoot for a focused and intense beam (Snooted Strobe).
+Light through a prism or crystal for interesting reflections (Prism Reflections).
+Window light filtered through a lace curtain for a textured effect (Lace Curtain Light).
+Reflected light from a water surface for a rippling effect (Reflected Water Light).
+Softbox with a diffuser and colored gel for a soft color cast (Softbox with Colored Gel).
+Flash combined with a colored gel for a colored rim light (Colored Rim Light).
+Overhead light with a diffuser for a soft and flattering look (Overhead Diffused Light).
+Sunlight through leaves or branches creating patterns (Leaf/Branch Patterns).
+Softbox with a grid and colored gel for creative lighting (Grid with Colored Gel).
+Strobe light through a textured surface for added interest (Textured Light).
+Flash with a snoot for a spotlight effect (Snooted Flash).
+Sunlight through a prism for a spectrum of colors (Spectrum Light).
+Softbox with a diffuser and honeycomb grid for precise lighting (Diffused Grid Softbox).
+Strobe light combined with a prism for artistic effects (Prism Strobe Light).
+Flash with a grid and colored gel for a controlled and creative look (Grid with Colored Gel).
+Softbox with a diffuser and snoot for versatile control (Diffused Snooted Softbox).
+Window light through blinds or shutters for striped patterns (Striped Light).
+Light through a patterned or textured surface for creative shadows (Patterned Light).
+Strobe light with a prism or crystal for refraction effects (Refraction Strobe Light).
+Flash with a diffuser and colored gel for a soft color cast (Diffused Colored Flash).
+Overhead light through a textured surface for interesting shadows (Textured Overhead Light).
+Window light through a patterned or frosted glass for diffusion (Frosted Glass Light).
+Sunlight through a textured or perforated surface for interesting shadows (Perforated Light).
+Softbox with a honeycomb grid and colored gel for creative control (Honeycomb Grid with Colored Gel).
+Flash with a diffuser and snoot for controlled spotlighting (Diffused Snooted Flash).
+Reflected light from a metallic or shiny surface for interesting reflections (Metallic Reflections).
+Sunlight through foliage or leaves creating dappled light (Dappled Sunlight).
+Light through blinds or shutters for striped or slatted patterns (Blinds/Shutters Light).
+Softbox with a diffuser and grid for precise and controlled lighting (Diffused Grid Softbox).

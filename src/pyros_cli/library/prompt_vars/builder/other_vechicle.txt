@@ -1,0 +1,100 @@
+Car
+Motorcycle
+Truck
+SUV (Sport Utility Vehicle)
+Van
+Minivan
+Bus
+Bicycle
+Tricycle
+Scooter
+Motorhome/RV (Recreational Vehicle)
+Camper van
+ATV (All-Terrain Vehicle)
+Jet ski
+Yacht
+Sailboat
+Speedboat
+Canoe
+Kayak
+Helicopter
+Airplane
+Hot air balloon
+Train
+Subway/Metro
+Tram
+Segway
+Skateboard
+Rollerblades/Roller skates
+Snowmobile
+Electric scooter
+Golf cart
+Forklift
+Electric bicycle (e-bike)
+Cargo bike
+Motorized wheelchair
+Amphibious vehicle
+Monster truck
+Tow truck
+Fire truck
+Police car
+Ambulance
+Limousine
+Taxi
+Convertible
+Coupe
+Sedan
+Hatchback
+Station wagon
+Pickup truck
+Off-road vehicle
+Electric car
+Hybrid car
+Vintage car
+Classic car
+Luxury car
+Sports car
+Convertible SUV
+Crossover SUV
+Pickup truck with extended cab
+Crew cab truck
+Dump truck
+Garbage truck
+Cement mixer truck
+Food truck
+Ice cream truck
+Box truck
+Flatbed truck
+Armored car
+Tank
+Humvee
+Military jeep
+Submarine
+Cruise ship
+Container ship
+Catamaran
+Fishing boat
+Sailing yacht
+Jet boat
+Hydroplane
+Hot rod
+Tour bus
+Double-decker bus
+School bus
+Electric bus
+Monorail
+Cable car
+Rickshaw
+Recumbent bicycle
+Racing bike
+Electric skateboard
+Dune buggy
+Off-road motorcycle
+Snowcat
+Segway PT
+Electric unicycle
+Zamboni
+Armored personnel carrier
+Combine harvester
+Go-kart
+Skatecycle

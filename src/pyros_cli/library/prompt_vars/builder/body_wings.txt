@@ -1,0 +1,60 @@
+Dragon wings
+Bat wings
+Eagle wings
+Hummingbird wings
+Owl wings
+Butterfly wings
+Bee wings
+Dragonfly wings
+Angled wings
+Fairy wings
+Griffin wings
+Harpy wings
+Gargoyle wings
+Demon wings
+Phoenix wings
+Valkyrie wings
+Angel of Death wings
+Chimera wings
+Manta ray wings
+Pterosaur wings
+Wyvern wings
+Simurgh wings
+Qilin wings
+Hippogriff wings
+Seraph wings
+Cherub wings
+Moth wings
+Butterfly wings (damaged)
+Bat wings (folded)
+Bird wings (mid-flap)
+Hummingbird wings (iridescent)
+Owl wings (silent)
+Bat wings (spread)
+Bird wings (landing)
+Butterfly wings (monarch)
+Dragon wings (spectral)
+Angled wings (feathered)
+Fairy wings (glowing)
+Griffin wings (golden)
+Harpy wings (feathered tips)
+Gargoyle wings (stone)
+Demon wings (feathery)
+Phoenix wings (ash)
+Valkyrie wings (armored)
+Angel of Death wings (shadowy)
+Chimera wings (lion/snake/goat)
+Manta ray wings (spotted)
+Pterosaur wings (leathery)
+Wyvern wings (poisonous)
+Simurgh wings (multicolored)
+Qilin wings (fiery)
+Hippogriff wings (snowy)
+Seraph wings (six-eyed)
+Cherub wings (teardrop)
+Moth wings (eyemarks)
+Butterfly wings (stained glass)
+Bat wings (migrating)
+Bird wings (soaring)
+Insect wings (transparent)
+Angel wings (battle-worn)

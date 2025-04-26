@@ -1,0 +1,200 @@
+Kimono
+Yukata
+Furisode
+Obi
+Hakama
+Haori
+Hanten
+Happi
+Uchikake
+Tomesode
+Mofuku (mourning attire)
+Jinbei
+Samue
+Michiyuki
+Mamachari (utility bike) fashion
+Lolita fashion
+Gyaru fashion
+Kawaii fashion
+Mori Kei fashion
+Harajuku street fashion
+Decora fashion
+Visual Kei fashion
+Cosplay
+School uniform (Seifuku)
+Traditional Ainu attire
+Traditional Okinawan attire
+Traditional Maiko attire
+Traditional Geisha attire
+Traditional Samurai attire
+Traditional Ninja attire
+Traditional Shinto shrine maiden attire
+Traditional Buddhist monk attire
+Traditional Japanese wedding kimono (Shiromuku)
+Traditional Japanese bridal attire (Uchikake)
+Traditional Japanese tea ceremony attire
+Traditional Japanese dance costume
+Traditional Japanese theater costume
+Zen Buddhist monk attire
+Tabi socks
+Geta sandals
+Zori sandals
+Geta boots (Tengu Geta)
+Waraji sandals
+Setta sandals
+Hachimaki headband
+Obijime (decorative cord for kimono)
+Kinchaku (drawstring bag)
+Fukusa (gift-wrapping cloth)
+Nigiri-bukuro (money pouch)
+Tenugui (multi-purpose cloth)
+Tsumami kanzashi (fabric flower hairpin)
+Oiran-style hair accessories
+Wagara patterned clothing
+Shibori tie-dye technique
+Yuzen dyeing technique
+Tsujigahana dyeing technique
+Sashiko embroidery
+Boro patchwork
+Edo Komon patterned clothing
+Kurotomesode (black formal kimono)
+Fur collar (Shiromuku)
+Kakeshita (wedding under-kimono)
+Hikizuri (long trailing kimono)
+Monpe (work pants)
+Tabi boots
+Inrou (small case for medicine or personal belongings)
+Datejime (kimono belt)
+Jinbei-zouri (indoor sandals)
+Jika-tabi (work boots with split toe)
+Kanzashi (ornamental hairpin)
+Shima-pants (striped underwear)
+Sarashi (cotton bandage)
+Nagajuban (under-kimono)
+Oshiroi (traditional white face powder)
+Kappogi (apron)
+Uwagi (jacket)
+Hakoseko (wallet)
+Susohiki (long trailing kimono)
+Ranru (indigo-dyed work clothes)
+Koshihimo (cord for tying kimono)
+Fundoshi (traditional underwear for men and women)
+Waraji-gake (straw sandal covers)
+Zabuton (floor cushion)
+Michiyuki-hanten (short jacket)
+Nuno-zori (fabric flip-flops)
+Ita-bag (decorated bag featuring favorite characters)
+Oshare-kei fashion
+Otome-kei fashion
+Hime-kei fashion
+Visual Kei fashion
+Kuro Lolita (black Lolita)
+Goshikku Lolita (Gothic Lolita)
+Sweet Lolita
+Wa Lolita (Kimono-inspired Lolita)
+Shironuri (white-painted face)
+Menhera fashion
+Yami Kawaii fashion
+Hanten coat
+Tobi trousers
+Yagasuri patterned clothing
+Hanfu (Traditional Chinese clothing)
+Kimono (Japanese traditional clothing)
+Cheongsam (Chinese qipao dress)
+Hanbok (Korean traditional clothing)
+Ao Dai (Vietnamese traditional dress)
+Sari (Indian traditional attire)
+Barong Tagalog (Filipino formal wear)
+Ao Tu Than (Vietnamese traditional dress)
+Changshan (Chinese men's robe)
+Yukata (Japanese summer kimono)
+Hanbok for Men (Korean traditional clothing for men)
+Kebaya (Indonesian traditional dress)
+Salwar Kameez (Indian/Pakistani traditional outfit)
+Qun Kwa (Traditional Chinese wedding dress)
+Sarong (Traditional Southeast Asian garment)
+Sampot (Cambodian traditional clothing)
+Shalwar Kameez (Pakistani traditional outfit)
+Ao Ba Ba (Vietnamese traditional clothing for women)
+Pao (Traditional Chinese robe)
+Kimono for Men (Japanese traditional clothing for men)
+Chima Jeogori (Traditional Korean skirt and top)
+Hanbok for Boys (Korean traditional clothing for boys)
+Dhoti (Traditional Indian garment for men)
+Ao Dai for Men (Vietnamese traditional dress for men)
+Sarafan (Traditional Russian dress)
+Kira (Bhutanese traditional dress)
+Magua (Traditional Chinese jacket)
+Hanfu for Men (Traditional Chinese clothing for men)
+Kanzu (Traditional East African tunic)
+Qipao for Men (Traditional Chinese dress for men)
+Abaya (Traditional Islamic garment)
+Chong Kraben (Thai traditional clothing)
+Norigae (Korean traditional ornament)
+Tangzhuang (Traditional Chinese formal wear)
+Thawb (Traditional Arab dress)
+Kosode (Ancient Japanese garment)
+Daura Suruwal (Nepalese traditional clothing)
+Kain (Traditional Indonesian cloth)
+Nyonya Kebaya (Traditional Peranakan dress)
+Hwaot (Traditional Korean headpiece)
+Tunic and Pants (Traditional Central Asian attire)
+Basotho Blanket (Traditional Lesotho garment)
+Angarkha (Traditional Indian garment)
+Kira for Men (Traditional Bhutanese dress for men)
+Jeogori (Traditional Korean top)
+Choli (Traditional Indian women's blouse)
+Tang Suit (Traditional Chinese jacket and pants)
+Chang Pao (Traditional Chinese robe)
+Kimono for Boys (Japanese traditional clothing for boys)
+Nyonya Kebaya for Men (Traditional Peranakan dress for men)
+Saya (Traditional Filipino dress)
+Kain Panjang (Traditional Indonesian dress)
+Dastar (Traditional Sikh turban)
+Hanfu for Boys (Traditional Chinese clothing for boys)
+Daraa (Traditional Moroccan robe)
+Krama (Traditional Cambodian scarf)
+Hanfu for Girls (Traditional Chinese clothing for girls)
+Sampot for Men (Traditional Cambodian clothing for men)
+Kimono for Girls (Japanese traditional clothing for girls)
+Saya for Men (Traditional Filipino dress for men)
+Chogori (Traditional Korean top)
+Tangzhuang for Women (Traditional Chinese formal wear for women)
+Basotho Hat (Traditional Lesotho headwear)
+Magua for Women (Traditional Chinese jacket for women)
+Changshan for Women (Traditional Chinese women's robe)
+Ao Tu Than for Girls (Vietnamese traditional dress for girls)
+Kebaya for Men (Traditional Indonesian dress for men)
+Ao Ba Ba for Girls (Vietnamese traditional clothing for girls)
+Sampot for Women (Traditional Cambodian clothing for women)
+Qipao for Girls (Traditional Chinese dress for girls)
+Chima for Girls (Traditional Korean skirt for girls)
+Nyonya Kebaya for Boys (Traditional Peranakan dress for boys)
+Dhoti for Boys (Traditional Indian garment for boys)
+Changshan for Men (Traditional Chinese men's robe)
+Kira for Boys (Traditional Bhutanese dress for boys)
+Kosode for Men (Ancient Japanese garment for men)
+Qun Kwa for Boys (Traditional Chinese wedding dress for boys)
+Chong Kraben for Men (Thai traditional clothing for men)
+Thawb for Boys (Traditional Arab dress for boys)
+Tang Suit for Women (Traditional Chinese jacket and pants for women)
+Sampot for Girls (Traditional Cambodian clothing for girls)
+Salwar Kameez for Boys (Indian/Pakistani traditional outfit for boys)
+Dhoti for Girls (Traditional Indian garment for girls)
+Tangzhuang for Men (Traditional Chinese formal wear for men)
+Hanfu for Women (Traditional Chinese clothing for women)
+Kira for Women (Traditional Bhutanese dress for women)
+Chima for Women (Traditional Korean skirt for women)
+Ao Ba Ba for Boys (Vietnamese traditional clothing for boys)
+Kebaya for Women (Traditional Indonesian dress for women)
+Sarong for Men (Traditional Southeast Asian garment for men)
+Sampot for Boys (Traditional Cambodian clothing for boys)
+Sarafan for Women (Traditional Russian dress for women)
+Tang Suit for Men (Traditional Chinese jacket and pants for men)
+Sari for Boys (Indian traditional attire for boys)
+Cheongsam for Boys (Chinese qipao dress for boys)
+Kimono for Boys (Japanese traditional clothing for boys)
+Basotho Blanket for Women (Traditional Lesotho garment for women)
+Ao Tu Than for Boys (Vietnamese traditional dress for boys)
+Qun Kwa for Girls (Traditional Chinese wedding dress for girls)
+Chong Kraben for Women (Thai traditional clothing for women)

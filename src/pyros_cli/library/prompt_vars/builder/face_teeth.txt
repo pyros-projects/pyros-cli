@@ -1,0 +1,100 @@
+Shark Teeth
+Pointy Teeth
+Perfect Teeth
+Crooked Teeth
+Chipped Teeth
+Veneered Teeth
+Gap Teeth
+Buck Teeth
+Overlapping Teeth
+Gummy Smile
+Underbite
+Overbite
+Snaggletooth
+Rabbit Teeth
+Fanged Teeth
+Blunt Teeth
+Peg Teeth
+Tusk-Like Teeth
+Tetracycline-Stained Teeth
+Misaligned Teeth
+Canine Teeth
+Incisor Teeth
+Molar Teeth
+Premolar Teeth
+Supernumerary Teeth (Extra Teeth)
+Dentures
+Gold Teeth
+Silver Teeth
+Gapless Teeth
+Stained Teeth
+Bicuspid Teeth
+Impacted Teeth
+Absent Teeth (Missing Teeth)
+Capped Teeth
+Partial Denture
+False Teeth
+Uneven Teeth
+Baby Teeth
+Adult Teeth
+Wisdom Teeth
+Cracked Teeth
+Gum Disease-Affected Teeth
+Malocclusion Teeth
+Peg Laterals (Small Cone-shaped Lateral Incisors)
+Peg Cuspids (Small Cone-shaped Canines)
+Enamel Erosion-Affected Teeth
+Overlapped Teeth
+Discolored Teeth
+Pitted Teeth
+Decayed Teeth
+Fluorosis-Affected Teeth (Stains due to Excessive Fluoride)
+Diastema (Gap between Front Teeth)
+Peg Bicuspids (Small Cone-shaped Premolars)
+Mesiodens (Supernumerary Tooth between Two Front Teeth)
+Peg Second Molars (Small Cone-shaped Second Molars)
+Cracked Filling in a Tooth
+Ectopic Eruption of Teeth (Teeth Emerging in the Wrong Position)
+Shovel-Shaped Incisors (Incisors with a Lingual Concavity)
+Supernumerary Fourth Molars (Extra Fourth Molars)
+Taurodontism (Teeth with Enlarged Pulp Chamber)
+Amelogenesis Imperfecta-Affected Teeth (Enamel Defects)
+Dentinogenesis Imperfecta-Affected Teeth (Dentin Defects)
+Abnormally Small Teeth
+Peg Third Molars (Small Cone-shaped Third Molars)
+Fused Teeth (Two Teeth Merged Together)
+Geminated Teeth (Two Crowns with a Single Root)
+Dilacerated Teeth (Teeth with Abnormal Curvature)
+Hyperdontia (Excess Number of Teeth)
+Supernumerary Premolars (Extra Premolars)
+Supernumerary Lateral Incisors (Extra Lateral Incisors)
+Infraoccluded Teeth (Teeth Positioned Too Low)
+Supraoccluded Teeth (Teeth Positioned Too High)
+Shovel-Shaped Cuspids (Canines with a Lingual Concavity)
+Hypodontia (Missing One or More Teeth)
+Anodontia (Complete Absence of Teeth)
+Supernumerary Mandibular Central Incisors (Extra Lower Front Teeth)
+Hutchinson's Incisors (Notched Screwdriver-Shaped Incisors)
+Mulberry Molars (Molars with Multiple Rounded Cusps)
+Dens in Dente (Tooth within a Tooth)
+Dens Invaginatus (Tooth with Deep Invagination)
+Talon Cusp (Extra Cusp on the Lingual Surface)
+Dens Evaginatus (Extra Cusp on the Occlusal Surface)
+Gemination (Incomplete Splitting of a Tooth)
+Dens Indente (Tooth with Inward-Folding Enamel)
+Dens Involutus (Tooth with Deep Folding)
+Enamel Pearl (Small Ball of Enamel on a Tooth)
+Microdontia (Abnormally Small Teeth)
+Macrodontia (Abnormally Large Teeth)
+Supernumerary Mandibular Lateral Incisors (Extra Lower Lateral Incisors)
+Mulberry Premolars (Premolars with Multiple Rounded Cusps)
+Accessory Roots (Extra Roots on a Tooth)
+Talon's Cusp on Lateral Incisors (Extra Cusp on the Lingual Surface of Lateral Incisors)
+Fused Premolars (Two Premolars Merged Together)
+Taurodontism on Molars (Molars with Enlarged Pulp Chamber)
+Dilacerated Roots (Roots with Abnormal Curvature)
+Taurodontism on Bicuspids (Bicuspids with Enlarged Pulp Chamber)
+Shovel-Shaped Second Molars (Second Molars with a Lingual Concavity)
+Talon Cusp on Cuspids (Extra Cusp on the Lingual Surface of Canines)
+Dilacerated Cuspids (Canines with Abnormal Curvature)
+Mulberry Cuspids (Canines with Multiple Rounded Cusps)

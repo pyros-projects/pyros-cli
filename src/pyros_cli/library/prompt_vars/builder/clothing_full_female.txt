@@ -1,0 +1,210 @@
+Casual: Ripped jeans, graphic tee, sneakers, and a denim jacket.
+Bohemian: Flowy maxi dress, floppy hat, and strappy sandals.
+Chic: Tailored blazer, skinny trousers, silk blouse, and heels.
+Preppy: Pleated skirt, button-down shirt, cardigan, and loafers.
+Tomboy: Baggy jeans, oversized hoodie, beanie, and sneakers.
+Glamorous: Sequined gown, statement jewelry, and stilettos.
+Vintage: A-line dress, retro pumps, and cat-eye sunglasses.
+Sporty: Leggings, sports bra, athletic tank, and running shoes.
+Business: Pencil skirt, tailored blouse, blazer, and pumps.
+Edgy: Leather jacket, ripped skinny jeans, combat boots.
+Romantic: Flowy floral dress, ballet flats, and a ribbon headband.
+Rocker: Leather pants, band tee, moto boots, and studded accessories.
+Beachy: Printed sarong, bikini top, flip-flops, and a wide-brimmed hat.
+Urban: Distressed denim shorts, crop top, sneakers, and a bomber jacket.
+Schoolgirl: Pleated plaid skirt, white blouse, knee-high socks, and Mary Janes.
+Resort: White linen jumpsuit, straw hat, and espadrille wedges.
+Equestrian: Riding pants, riding boots, button-down shirt, and a blazer.
+Artsy: Asymmetrical dress, funky tights, and ankle boots.
+Mod: Shift dress, knee-high boots, and oversized sunglasses.
+Country: Denim overalls, plaid shirt, cowboy boots, and a cowboy hat.
+Yoga: Yoga leggings, sports bra, tank top, and yoga socks.
+Pin-up: High-waisted shorts, polka-dot crop top, and platform pumps.
+Boho-Chic: Wide-leg pants, off-the-shoulder blouse, and gladiator sandals.
+Formal: Floor-length gown, statement necklace, and strappy heels.
+Classic: Tailored trousers, button-down shirt, and classic pumps.
+Athleisure: Joggers, hoodie, sneakers, and a baseball cap.
+Festival: Fringe shorts, crop top, and lace-up boots.
+Business Casual: Trousers, blouse, blazer, and loafers.
+Ballerina: Tulle skirt, fitted top, ballet flats, and a bun.
+Grunge: Plaid flannel shirt, ripped jeans, combat boots.
+Safari: Cargo pants, utility jacket, and hiking boots.
+Evening Gown: Elegant evening gown with a train and statement jewelry.
+Retro: High-waisted pants, tucked-in blouse, and vintage heels.
+Office: Pencil skirt, blouse, blazer, and pumps.
+Boho-Edgy: Leather jacket, flowy bohemian dress, and ankle boots.
+Ski: Ski pants, ski jacket, thermal top, and snow boots.
+Cocktail: Little black dress, strappy heels, and a clutch bag.
+Goth: Black lace dress, fishnet tights, platform boots, and choker necklace.
+Safari: Utility jumpsuit, combat boots, and a wide-brimmed hat.
+Glam-Rock: Sequin pants, rocker tee, leather jacket, and studded boots.
+Active: Leggings, tank top, zip-up jacket, and running shoes.
+Resort: Maxi wrap dress, floppy hat, and wedge sandals.
+Retro Swimwear: High-waisted bikini with polka dots and a retro swim cap.
+Vintage Glam: Beaded flapper dress, feather headband, and vintage heels.
+Island Getaway: Tropical print maxi dress, straw hat, and espadrilles.
+Boho-Vintage: Maxi bohemian dress, round sunglasses, and fringe bag.
+Casual Chic: Skinny jeans, striped shirt, blazer, and ankle boots.
+Classic Rock: Band tee, distressed jeans, leather jacket, and boots.
+Glamorous Evening: Evening gown with a thigh-high slit and strappy heels.
+Boho-Sporty: Flowy maxi skirt, sports bra, and sneakers.
+70s Disco: Sequin jumpsuit, platform shoes, and hoop earrings.
+Summer BBQ: Denim shorts, tank top, sandals, and a floppy hat.
+Elegant Cocktail: Lace cocktail dress, statement necklace, and pumps.
+Day at the Park: Sundress, straw hat, and sandals.
+Ski Resort: Fitted ski jacket, ski pants, and snow boots.
+Retro Beach: High-waisted bikini, cat-eye sunglasses, and a floppy hat.
+Hipster: Skinny jeans, plaid shirt, beanie, and Converse sneakers.
+Pool Party: One-piece swimsuit, cover-up, and flip-flops.
+Glamorous Red Carpet: Designer gown, diamond jewelry, and stiletto heels.
+Festival Hippie: Fringe vest, tie-dye tank top, shorts, and sandals.
+Outdoor Adventure: Hiking pants, performance top, and hiking boots.
+90s Grunge: Plaid shirt, ripped jeans, combat boots, and choker necklace.
+Tropical Vacation: Maxi dress, floppy hat, and wedge sandals.
+Retro Sailor: Sailor dress, sailor hat, and nautical accessories.
+Retro-Pinup Swimwear: High-waisted bikini with a retro swim cap.
+Urban Explorer: Cargo pants, utility jacket, and combat boots.
+Victorian: Corseted gown with lace details and a wide-brimmed hat.
+Retro-Glam: Vintage-inspired cocktail dress, red lipstick, and pumps.
+Beach Boho: Crochet cover-up, straw hat, and gladiator sandals.
+80s Retro: Neon leggings, oversized sweater, and high-top sneakers.
+Resort Glam: Flowy maxi dress, statement necklace, and strappy heels.
+Casual Retro: Wide-leg pants, tucked-in blouse, and vintage heels.
+Grunge Rocker: Ripped jeans, band tee, leather jacket, and combat boots.
+Desert Adventure: Utility jumpsuit, hiking boots, and wide-brimmed hat.
+Tropical Paradise: Tropical print dress, floppy hat, and wedge sandals.
+Casual Vintage: A-line dress, cat-eye sunglasses, and retro pumps.
+Island Escape: Flowy maxi dress, straw hat, and espadrilles.
+Retro-Rockabilly: High-waisted skirt, polka-dot blouse, and pumps.
+Safari Glam: Utility jumpsuit, wedges, and statement jewelry.
+Vintage Beach: High-waisted bikini, retro sunglasses, and a floppy hat.
+Boho-Chic Glam: Flowy maxi dress, statement necklace, and wedges.
+Adventure Traveler: Cargo pants, utility jacket, and hiking boots.
+Cocktail Party: Little black dress, statement necklace, and heels.
+Retro-Hippie: Bell-bottom jeans, tie-dye shirt, and platform sandals.
+Beach Vacation: Sundress, floppy hat, and sandals.
+Glamorous Red Carpet: Designer gown, diamond jewelry, and stiletto heels.
+Retro Pool Party: One-piece swimsuit, cover-up, and cat-eye sunglasses.
+Rock 'n' Roll Concert: Ripped jeans, band tee, leather jacket, and boots.
+Tropical Island Escape: Maxi dress, floppy hat, and sandals.
+Vintage Glamorous: Beaded flapper dress, feather headband, and vintage heels.
+Boho-Chic Festival: Fringe vest, flowy bohemian dress, and ankle boots.
+Active Lifestyle: Leggings, tank top, zip-up jacket, and running shoes.
+Safari Explorer: Utility jumpsuit, hiking boots, and wide-brimmed hat.
+Casual Vintage: A-line dress, round sunglasses, and retro pumps.
+Rock Concert: Ripped jeans, band tee, leather jacket, and boots.
+Casual Retro: Wide-leg pants, tucked-in blouse, and vintage heels.
+Island Getaway: Tropical print maxi dress, floppy hat, and espadrilles.
+Boho-Chic Glam: Flowy maxi dress, statement necklace, and wedges.
+Adventure Traveler: Cargo pants, utility jacket, and hiking boots.
+Safari Glam: Utility jumpsuit, wedges, and statement jewelry.
+Casual Vintage: A-line dress, cat-eye sunglasses, and retro pumps.
+Island Escape: Flowy maxi dress, straw hat, and espadrilles.
+Retro-Rockabilly: High-waisted skirt, polka-dot blouse, and pumps.
+Desert Adventure: Utility jumpsuit, hiking boots, and wide-brimmed hat.
+Vintage Beach: High-waisted bikini, retro sunglasses, and a floppy hat.
+Boho-Chic Glam: Flowy maxi dress, statement necklace, and wedges.
+Adventure Traveler: Cargo pants, utility jacket, and hiking boots.
+Cocktail Party: Little black dress, statement necklace, and heels.
+Retro-Hippie: Bell-bottom jeans, tie-dye shirt, and platform sandals.
+Beach Vacation: Sundress, floppy hat, and sandals.
+Glamorous Red Carpet: Designer gown, diamond jewelry, and stiletto heels.
+Retro Pool Party: One-piece swimsuit, cover-up, and cat-eye sunglasses.
+Rock 'n' Roll Concert: Ripped jeans, band tee, leather jacket, and boots.
+Tropical Island Escape: Maxi dress, floppy hat, and sandals.
+Vintage Glamorous: Beaded flapper dress, feather headband, and vintage heels.
+Boho-Chic Festival: Fringe vest, flowy bohemian dress, and ankle boots.
+Active Lifestyle: Leggings, tank top, zip-up jacket, and running shoes.
+Safari Explorer: Utility jumpsuit, hiking boots, and wide-brimmed hat.
+Casual Vintage: A-line dress, round sunglasses, and retro pumps.
+Rock Concert: Ripped jeans, band tee, leather jacket, and boots.
+Casual Retro: Wide-leg pants, tucked-in blouse, and vintage heels.
+Island Getaway: Tropical print maxi dress, floppy hat, and espadrilles.
+Boho-Chic Glam: Flowy maxi dress, statement necklace, and wedges.
+Adventure Traveler: Cargo pants, utility jacket, and hiking boots.
+Safari Glam: Utility jumpsuit, wedges, and statement jewelry.
+Casual Vintage: A-line dress, cat-eye sunglasses, and retro pumps.
+Island Escape: Flowy maxi dress, straw hat, and espadrilles.
+Retro-Rockabilly: High-waisted skirt, polka-dot blouse, and pumps.
+Desert Adventure: Utility jumpsuit, hiking boots, and wide-brimmed hat.
+Vintage Beach: High-waisted bikini, retro sunglasses, and a floppy hat.
+Boho-Chic Glam: Flowy maxi dress, statement necklace, and wedges.
+Adventure Traveler: Cargo pants, utility jacket, and hiking boots.
+Cocktail Party: Little black dress, statement necklace, and heels.
+Retro-Hippie: Bell-bottom jeans, tie-dye shirt, and platform sandals.
+Beach Vacation: Sundress, floppy hat, and sandals.
+Glamorous Red Carpet: Designer gown, diamond jewelry, and stiletto heels.
+Retro Pool Party: One-piece swimsuit, cover-up, and cat-eye sunglasses.
+Rock 'n' Roll Concert: Ripped jeans, band tee, leather jacket, and boots.
+Tropical Island Escape: Maxi dress, floppy hat, and sandals.
+Vintage Glamorous: Beaded flapper dress, feather headband, and vintage heels.
+Boho-Chic Festival: Fringe vest, flowy bohemian dress, and ankle boots.
+Active Lifestyle: Leggings, tank top, zip-up jacket, and running shoes.
+Safari Explorer: Utility jumpsuit, hiking boots, and wide-brimmed hat.
+Casual Vintage: A-line dress, round sunglasses, and retro pumps.
+Rock Concert: Ripped jeans, band tee, leather jacket, and boots.
+Casual Retro: Wide-leg pants, tucked-in blouse, and vintage heels.
+Island Getaway: Tropical print maxi dress, floppy hat, and espadrilles.
+Boho-Chic Glam: Flowy maxi dress, statement necklace, and wedges.
+Adventure Traveler: Cargo pants, utility jacket, and hiking boots.
+Safari Glam: Utility jumpsuit, wedges, and statement jewelry.
+Flowing floral maxi dress with a denim jacket and sandals.
+Black leather pants, a white silk blouse, and a statement necklace.
+Ripped jeans, a graphic tee, and a bomber jacket with sneakers.
+Tailored grey pants, a crisp white button-down shirt, and blazer.
+High-waisted shorts, a ruffled crop top, and chunky platform sandals.
+Cozy knitted sweater dress with leggings and ankle boots.
+Elegant black jumpsuit with a statement belt and heels.
+Cargo pants, a cropped tank top, and an oversized denim jacket.
+A-line mini skirt, a fitted knit sweater, and knee-high boots.
+Overalls, a striped t-shirt, and a pair of Converse sneakers.
+Flowy chiffon skirt, a fitted camisole, and a flowy kimono jacket.
+High-waisted denim shorts, a graphic tee, and a tie-dye bucket hat.
+Pleated midi skirt, a fitted turtleneck, and a long coat.
+Leather skirt, a silk camisole, and a blazer with pointed-toe pumps.
+Leggings, a flowy tunic top, and a denim jacket with sneakers.
+A-line mini dress with a floral print, paired with a denim jacket and sandals.
+High-waisted paperbag pants, a fitted top, and a chunky cardigan.
+Pleated midi skirt, a tucked-in blouse, and a statement belt with heels.
+Joggers, a crop top, and a stylish puffer jacket with sneakers.
+High-waisted wide-leg pants, a fitted tank top, and a flowy kimono jacket.
+Black jumpsuit with a plunging neckline and statement earrings.
+Ripped jeans, a band tee, and a leather jacket with combat boots.
+Tailored trousers, a silk blouse, and a blazer for a professional look.
+Flowy maxi dress with a paisley print and a straw hat for a beachy vibe.
+High-waisted mom jeans, a graphic tee, and an oversized denim jacket.
+Cargo pants, a cropped sweater, and a beanie with sneakers.
+Pencil skirt, a crisp white button-down shirt, and a blazer with pumps.
+Leather pants, a silk tank top, and a statement necklace with heels.
+Leggings, a loose-fitting sweater, and a pair of cozy slippers.
+A-line mini dress with a fun pattern, paired with a leather jacket and ankle boots.
+Flowy maxi dress in a bold color with a statement necklace and strappy sandals.
+High-waisted corduroy pants, a fitted turtleneck, and a cropped leather jacket.
+Ripped black jeans, a lace bralette, and a sheer kimono overtop with heels.
+Tailored shorts with a high waist, a crisp button-down shirt tucked in, and loafers.
+Flowy maxi skirt with a boho print, a crop top, and gladiator sandals.
+Oversized knit sweater, leggings, and fuzzy slippers for a cozy at-home look.
+Elegant jumpsuit with floral embroidery and a pair of statement earrings.
+Cargo pants, a graphic tee tied at the waist, and a baseball cap with sneakers.
+A-line midi skirt with a bold pattern, a fitted tank top, and ankle boots.
+Denim overalls with a cute top underneath, a straw hat, and sandals for a summery look.
+Pleated midi skirt, a tucked-in blouse with ruffled sleeves, and a chunky cardigan.
+High-waisted denim shorts paired with a flowy off-the-shoulder top and sneakers.
+Pleated midi skirt, a fitted turtleneck sweater, and a long puffer jacket with boots.
+Leather skirt, a fitted top with lace detailing, and open-toe heels.
+Leggings, a flowy tunic dress, and a statement belt with chunky boots.
+A-line mini dress in a vibrant color, paired with a denim jacket tied around the waist and platform sandals.
+High-waisted wide-leg pants, a tucked-in graphic tee, and a long trench coat with boots.
+Pleated midi skirt, a tucked-in button-down shirt tied at the waist, and a statement necklace.
+Joggers, a cropped hoodie, and a pair of stylish sneakers.
+High-waisted straight-leg jeans, a fitted tank top, and a blazer with loafers for a polished look.
+Jumpsuit with a plunging neckline and a bold print, paired with statement earrings and heels.
+Ripped mom jeans, a crop top, and a bomber jacket with platform sneakers.
+Tailored trousers, a silk blouse with statement sleeves, and a blazer for a formal event.
+Flowy maxi dress with a tropical print and a pair of sunglasses for a vacation vibe.
+High-waisted black jeans, a graphic tee, and a leather jacket with chunky boots.
+Cargo pants, a fitted tank top, and a bandana tied around the neck with sneakers.
+Pencil skirt, a sleeveless blouse with a statement collar, and pumps.
+Leather pants, a silk tank top, and a long, open cardigan with statement earrings.
+Leggings, a cozy oversized sweatshirt, and a pair of ankle socks.
+A-line mini dress in a neutral color with a statement belt, paired with a leather jacket and ankle boots.

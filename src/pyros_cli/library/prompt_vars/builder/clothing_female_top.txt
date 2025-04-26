@@ -1,0 +1,200 @@
+T-shirt
+Tank top
+Blouse
+Button-up shirt
+Crop top
+Sweater
+Cardigan
+Hoodie
+Turtleneck
+Peplum top
+Off-shoulder top
+Halter top
+Camisole
+Tube top
+Wrap top
+Kimono top
+Ruffled top
+Cold-shoulder top
+Bell-sleeve top
+Lace top
+Embroidered top
+Tie-front top
+Smocked top
+One-shoulder top
+High-neck top
+V-neck top
+Collared top
+Peter Pan collar top
+Bow-neck top
+Sleeveless top
+Long-sleeve top
+Puff-sleeve top
+Batwing top
+Flutter-sleeve top
+Peasant top
+Kimono-sleeve top
+Babydoll top
+Henley top
+Surplice top
+Asymmetrical top
+Twist-front top
+Cut-out top
+Bandeau top
+Cowl-neck top
+High-low top
+Racerback top
+Tiered top
+Fringe top
+Mesh top
+Corset top
+Sequin top
+Metallic top
+Graphic print top
+Embellished top
+Smocked off-shoulder top
+Wrap-front blouse
+Chiffon blouse
+Linen top
+Velvet top
+Frilled halter top
+Tie-back top
+Tunic top
+Sheer top
+Bow-back blouse
+Boho peasant blouse
+Kimono cardigan
+Puff-sleeve blouse
+Wrap-style crop top
+Tied bandeau top
+Lace-up top
+Ribbed tank top
+Bohemian crochet top
+Striped sailor top
+Ruched top
+Smocked tube top
+Tied cap-sleeve top
+Cowl-neck sweater
+Belted cardigan
+Tied-front crop top
+Flannel shirt
+Strappy camisole
+Knotted high-neck top
+Pleated blouse
+Ruffled bell-sleeve top
+Balloon-sleeve top
+Peplum sweater
+Bow-tie blouse
+Frilled cold-shoulder top
+Embroidered peasant top
+Tie-dye tank top
+Sequin camisole
+Lace-trimmed tank top
+Satin wrap top
+Mesh long-sleeve top
+Lace off-shoulder top
+Bow-detail sweater
+Tied halter tank top
+Crochet-trimmed camisole
+Smocked ruffle-sleeve top
+Oversized sweatshirt
+Off-the-shoulder crop top with ruffled sleeves.
+Halter neck tank top with a tie-back detail.
+One-shoulder asymmetrical blouse with a flowy drape.
+Wrap-front peplum top with a V-neckline.
+Bell-sleeve bohemian blouse with embroidery.
+Lace-trimmed camisole with a satin finish.
+Cold-shoulder knitted sweater with a mock neck.
+Button-up denim shirt with rolled-up sleeves.
+Long-sleeve turtleneck bodysuit with snap closures.
+Oversized flannel shirt with a front pocket.
+Sheer mesh long-sleeve top with floral embroidery.
+High-neck velvet crop top with a keyhole cutout.
+Off-the-shoulder balloon sleeve top in a pastel hue.
+Crochet halter top with fringe details.
+Tie-front cropped button-down shirt in a lightweight fabric.
+Kimono-style blouse with wide sleeves and a tie waist.
+Striped boat neck tunic with three-quarter sleeves.
+Strapless corset top with lace-up details in the back.
+High-neck sleeveless tank top with a flowy silhouette.
+Ruched sweetheart neckline bustier with boning.
+Sleeveless tunic with a geometric print and side slits.
+Draped cowl neck blouse with an abstract pattern.
+Cropped sweatshirt with a graphic print.
+Mock neck halter top with a plunging keyhole cutout.
+Peasant-style embroidered blouse with tassel ties.
+Collared button-up blouse with a tied bow detail.
+Cap-sleeve sequin top with a scoop neck.
+Puff-sleeve off-the-shoulder blouse with a smocked waist.
+Tie-dye tank top with a knotted front detail.
+Ruffled Victorian-style blouse with lace inserts.
+Strapless bandeau top with a crochet overlay.
+Tied-front crop top with a square neckline.
+Mesh long-sleeve top with metallic accents.
+Sleeveless turtleneck with a ribbed texture.
+Printed silk blouse with a draped cowl neck.
+Hooded pullover sweatshirt with a kangaroo pocket.
+Bowtie neck blouse with a polka-dot print.
+Tie-front halter crop top with a tropical pattern.
+Wrap-front kimono top with wide sleeves.
+Cropped hoodie with an oversized drawstring hood.
+High-neck lace bodysuit with long sleeves.
+Bell-sleeve peasant top with an embroidered yoke.
+Cold-shoulder chiffon blouse with a high-low hem.
+Fringed halter top with a bohemian print.
+Ruffled one-shoulder top with a flounce detail.
+Cropped off-the-shoulder sweater with balloon sleeves.
+Keyhole neck blouse with a delicate floral print.
+Asymmetrical hem tank top with a colorblock design.
+Flutter sleeve blouse with a tie-neck detail.
+Ribbed turtleneck crop top with long sleeves.
+Plaid flannel button-up shirt with a frayed hem.
+V-neck satin camisole with lace trim.
+Crochet off-the-shoulder top with bell sleeves.
+Blouson-sleeve wrap top with a waist tie.
+Sleeveless mock neck top with a front cutout.
+Oversized graphic print t-shirt with rolled sleeves.
+V-neck kimono-style blouse with a belted waist.
+Sheer mesh long-sleeve bodysuit with a high-cut leg.
+Ribbed tank top with a lace-up front.
+Strapless peplum top with a sweetheart neckline.
+Puff-sleeve wrap blouse with a floral print.
+Halter neck crop top with a back tie detail.
+Scoop neck fitted t-shirt with a cropped length.
+Tied halter top with a plunging neckline.
+Embroidered bell-sleeve tunic with a tassel tie.
+Ruffled off-the-shoulder top with a striped pattern.
+Long-sleeve turtleneck sweater with a ribbed texture.
+Pleated chiffon blouse with a high-neck collar.
+Wrap-front blouse with a ruffled peplum hem.
+Smocked off-the-shoulder crop top with short sleeves.
+Button-up chambray shirt with a high-low hem.
+Cropped halter top with a bohemian print.
+Ruched sweetheart neckline crop top with a back zipper.
+Sleeveless tunic with a boho-inspired pattern.
+Collared button-up blouse with ruffled sleeves.
+Cap-sleeve sequin top with a boat neck.
+Tie-front wrap blouse with a polka-dot print.
+Puff-sleeve peasant blouse with a lace-up front.
+Striped mock neck turtleneck with three-quarter sleeves.
+Hooded pullover sweatshirt with a logo print.
+Bowtie neck top with a floral print.
+Tied-front halter top with a tropical pattern.
+Mesh long-sleeve top with floral appliques.
+Sleeveless turtleneck with a ribbed texture.
+Printed silk blouse with a draped cowl neck.
+Cropped hoodie with an oversized drawstring hood.
+High-neck lace bodysuit with long sleeves.
+Bell-sleeve peasant top with an embroidered yoke.
+Cold-shoulder chiffon blouse with a high-low hem.
+Fringed halter top with a bohemian print.
+Ruffled one-shoulder top with a flounce detail.
+Cropped off-the-shoulder sweater with balloon sleeves.
+Keyhole neck blouse with a delicate floral print.
+Asymmetrical hem tank top with a colorblock design.
+Flutter sleeve blouse with a tie-neck detail.
+Ribbed turtleneck crop top with long sleeves.
+Plaid flannel button-up shirt with a frayed hem.
+V-neck satin camisole with lace trim.
+Crochet off-the-shoulder top with bell sleeves.
+Blouson-sleeve wrap top with a waist tie.

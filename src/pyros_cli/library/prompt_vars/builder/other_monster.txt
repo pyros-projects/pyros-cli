@@ -1,0 +1,195 @@
+Gremlin
+Ancient Demon
+Golem
+Chimaera
+Jinn
+Yeti/Abominable Snowman
+Living Shadow
+Loch Ness Monster
+Kraken
+Leviathan
+Phantom
+Specter
+Mindless Mutant
+Gorgon
+Succubus/Incubus
+Lovecraftian Elder God
+Demon Dog
+Doppelgänger
+Ghost
+Hellhound
+Flesh-eating Plant Creature
+Ancient Spirit of Darkness
+Jersey Devil
+Headless Horseman
+Krampus
+Wendigo
+Siren
+Harpy
+Vampire Lord
+Living Statue
+Vampire Bat
+Frankenstein's monster
+Basilisk
+Dinosaur-like Creature
+Demon
+Electric Elemental
+Sea Serpent
+Night Hag
+Witch
+Wererat
+Chupacabra
+Banshee
+Witch Doctor
+Werewolf Pack
+Harbinger of Death
+Imp
+Revenant
+Gargoyle
+Skinwalker
+Bogeyman
+Demonic Clown
+Mothman
+Giant Spider
+Zombie Clown
+Troll
+Mummy
+Reptilian Humanoid
+Skeleton
+Mind Flayer
+Living Slime
+Living Doll
+Zombie Horde
+Medusa
+Dragon
+Gnarled Tree Monster
+Swamp Creature
+Alien Creature
+Jackal-headed Anubis
+Scarecrow Monster
+Sinister Doll Army
+Dullahan
+Shadow Beast
+Vampiric Bat
+Wraith
+Hunchbacked Mutant
+Possessed Object
+Ghoul
+Goblin
+Sasquatch/Bigfoot
+Zombie
+Slender Man
+Mutant Insect
+Ogre
+Chimera
+Minotaur
+Bone Golem
+Vampire
+Nightmare Horse
+Poltergeist
+Werewolf
+Shapeshifter
+Lycanthrope
+Cursed Werewolf
+Reanimated Puppet
+Cyclops
+Dragon
+Unicorn
+Griffin
+Phoenix
+Mermaid
+Centaur
+Minotaur
+Werewolf
+Vampire
+Basilisk
+Chimera
+Kraken
+Yeti/Abominable Snowman
+Bigfoot/ Sasquatch
+Loch Ness Monster
+Pegasus
+Medusa
+Cyclops
+Fairy
+Gorgon
+Elf
+Gargoyle
+Harpy
+Nymph
+Troll
+Gnome
+Siren
+Hydra
+Kitsune (Japanese fox spirit)
+Banshee
+Leprechaun
+Kelpie (Scottish water spirit)
+Thunderbird (Native American)
+Wendigo (Native American)
+Naga (Hindu and Buddhist serpent deity)
+Roc (Giant mythical bird)
+Sphynx
+Satyr
+Faun
+Jersey Devil
+Cerberus (Three-headed dog guarding the underworld)
+Manananggal (Philippine folklore a winged self-segmenting vampire)
+Bai Ze (Chinese myth a creature that can speak 1000 languages)
+Chupacabra (Latin American folklore a blood-sucking creature)
+Jackalope (Folklore of North America a jackrabbit with antelope horns)
+Tengu (Japanese creature bird-like with long nose)
+Qilin/Kirin (Chinese and Japanese creature a mythical hooved chimerical creature)
+Jersey Devil
+Bunyip (Australian Aboriginal mythology water spirit)
+Hodag (American folklore horned reptile)
+Selkie (Scottish and Irish folklore a seal that can turn into a human)
+Kappa (Japanese water imp)
+Yuki-onna (Japanese snow woman)
+Hodag (American folklore horned reptile)
+Baku (Japanese dream-eating creature)
+Wendigo (Algonquian folklore a malevolent cannibalistic spirit)
+Changeling (Folklore about fairies swapping babies)
+Dullahan (Irish mythology headless horseman)
+Ghoul (Arabian folklore flesh-eating monster)
+Hippogriff
+Bunyip (Aboriginal Australian creature)
+Chimera (Greek mythology fire-breathing creature with lion goat and serpent parts)
+Gorgon (Medusa and her sisters)
+Lamassu (Assyrian protective deity with a human head eagle wings and lion body)
+Nuckelavee (Scottish and Orcadian myth a horse-like creature with a human rider)
+Tanuki (Japanese raccoon dog shape-shifting trickster)
+Peryton (A winged deer with a bird's head from European folklore)
+Ammit (Ancient Egyptian creature devourer of the dead)
+Faun (Roman mythology nature spirit with goat legs)
+Sleipnir (Norse mythology Odin's eight-legged horse)
+Yara-ma-yha-who (Australian Aboriginal myth a creature that eats people and regurgitates them as its minions)
+Amarok (Inuit folklore a giant wolf)
+Kishi (West African folklore a humanoid creature with backward feet)
+Ahuizotl (Aztec folklore a water monster)
+Aswang (Filipino folklore shape-shifting monster)
+Adlet (Inuit folklore half-human half-dog creature)
+Ahool (Indonesian folklore a giant bat)
+La Llorona (Mexican and Latin American folklore weeping woman ghost)
+Chaneques (Mexican folklore mischievous nature spirits)
+Yowie (Australian Aboriginal folklore similar to Bigfoot)
+Mapinguari (Amazonian folklore a giant sloth-like creature)
+Barong (Balinese mythology a lion-like creature representing good)
+Antikythera Mechanism (Ancient Greek device not a creature but a mysterious ancient artifact)
+Dragon Turtle (Chinese mythology turtle with a dragon's head)
+Ahkiyyini (Inuit folklore a spirit that controls the wind)
+Vegetable Lamb of Tartary (Medieval myth a lamb growing from a plant)
+Amarok (Inuit folklore a giant wolf)
+Faun (Roman mythology nature spirit with goat legs)
+Ceffyl Dŵr (Welsh water horse)
+Tzitzimitl (Aztec mythology skeletal goddesses associated with eclipses)
+Ankou (Breton folklore a personification of death)
+Nue (Japanese myth a chimera with the head of a monkey body of a tanuki and tail of a snake)
+Grootslang (South African folklore a giant serpent-elephant creature)
+Yacumama (South American folklore a giant snake deity)
+Mongolian Death Worm (Mongolian folklore a deadly worm-like creature)
+Tulpa (Tibetan mythology a thought-form creature created by the mind)
+Namahage (Japanese folklore ogre-like demons)
+The Bunjil (Aboriginal Australian mythology a wedge-tailed eagle deity)
+White Buffalo (Native American folklore a sacred and rare buffalo)
+Thessalhydra (Mythical creature from Dungeons & Dragons)

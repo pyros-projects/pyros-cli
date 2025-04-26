@@ -1,0 +1,200 @@
+Dog
+Cat
+Lion
+Tiger
+Elephant
+Giraffe
+Zebra
+Bear
+Panda
+Koala
+Kangaroo
+Dolphin
+Whale
+Shark
+Octopus
+Jellyfish
+Penguin
+Polar Bear
+Gorilla
+Chimpanzee
+Orangutan
+Monkey
+Cheetah
+Leopard
+Snow Leopard
+Jaguar
+Panther
+Wolf
+Fox
+Coyote
+Raccoon
+Squirrel
+Hedgehog
+Rabbit
+Deer
+Moose
+Antelope
+Gazelle
+Camel
+Llama
+Alpaca
+Horse
+Pony
+Donkey
+Mule
+Zebu
+Cow
+Buffalo
+Bison
+Sheep
+Goat
+Pig
+Wild Boar
+Elephant Seal
+Seal
+Sea Lion
+Otter
+Beaver
+Platypus
+Kangaroo Rat
+Lemur
+Meerkat
+Opossum
+Armadillo
+Sloth
+Tapir
+Hippopotamus
+Rhinoceros
+Manatee
+Giraffe Weevil
+Chameleon
+Lizard
+Snake
+Crocodile
+Alligator
+Tortoise
+Turtle
+Frog
+Toad
+Salamander
+Newt
+Axolotl
+Goldfish
+Betta Fish
+Guppy
+Clownfish
+Angelfish
+Seahorse
+Starfish
+Sea Urchin
+Jellyfish
+Coral
+Shrimp
+Crab
+Lobster
+Octopus
+Squid
+Cuttlefish
+Nautilus
+Osprey
+Falcon
+Eagle
+Hawk
+Vulture
+Owl
+Hummingbird
+Parrot
+Macaw
+Toucan
+Peacock
+Pigeon
+Sparrow
+Robin
+Blue Jay
+Crow
+Magpie
+Woodpecker
+Swan
+Flamingo
+Pelican
+Heron
+Roadrunner
+Quail
+Crane
+Ostrich
+Emu
+Cassowary
+Kiwi
+Rhea
+Hermit Crab
+King Crab
+Lobster
+Scorpion
+Tarantula
+Black Widow Spider
+Daddy Longlegs Spider
+Wolf Spider
+Brown Recluse Spider
+Camel Spider
+Millipede
+Centipede
+Praying Mantis
+Ladybug
+Dragonfly
+Firefly
+Butterfly
+Moth
+Cricket
+Grasshopper
+Bee
+Wasp
+Ant
+Termite
+Fly
+Mosquito
+Flea
+Tick
+Bed Bug
+Mantis Shrimp
+Lobster
+Crab
+Shrimp
+Barnacle
+Scallop
+Clam
+Mussel
+Oyster
+Cuttlefish
+Nautilus
+Sea Anemone
+Coral
+Sea Star
+Sea Cucumber
+Sea Slug
+Jellyfish
+Anemone Fish (Clownfish)
+Surgeonfish
+Butterflyfish
+Angelfish
+Triggerfish
+Pufferfish
+Lionfish
+Seahorse
+Hermit Crab
+King Crab
+Lobster
+Scorpion
+Tarantula
+Black Widow Spider
+Daddy Longlegs Spider
+Wolf Spider
+Brown Recluse Spider
+Camel Spider
+Millipede
+Centipede
+Praying Mantis
+Ladybug
+Dragonfly
+Firefly
+Butterfly

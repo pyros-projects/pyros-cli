@@ -1,0 +1,30 @@
+Dour: A stern joyless countenance devoid of smiles.
+Sullen: A face marked by resentment or sulky brooding.
+Morose: A gloomy and downcast expression often with a downturned mouth.
+Glum: A sullen face that radiates unhappiness.
+Mournful: A face reflecting deep sorrow often with downcast eyes.
+Sorrowful: A facial expression filled with sadness and regret.
+Eerie: A disconcerting and unsettling visage sometimes with a haunting quality.
+Stoic: A calm and composed face hiding emotions behind a mask of indifference.
+Expressionless: A face that reveals no emotion maintaining a neutral appearance.
+Unsmiling: A countenance that lacks any hint of a smile indicating seriousness.
+Brooding: A face showing deep contemplative thought often with furrowed brows.
+Disconsolate: A face marked by profound grief and inconsolable sadness.
+Funereal: A face bearing the solemnity associated with a funeral or mourning.
+Grave: A solemn serious expression that can denote concern or sadness.
+Wretched: A pitiable and miserable face often reflecting suffering.
+Forlorn: A face marked by a sense of abandonment or hopelessness.
+Pensive: A thoughtful and contemplative expression often with a hint of melancholy.
+Haggard: A face showing the effects of fatigue stress or illness.
+Haunted: A face with a distressing unsettling quality as if plagued by ghosts.
+Melancholic: A face deeply imbued with sadness and introspection.
+Grief-stricken: A face heavy with the weight of profound loss and sorrow.
+Wistful: A face expressing longing often with a far-off gaze.
+Despondent: A face that reveals a sense of hopelessness and despair.
+Stiff: A face with a lack of flexibility or warmth in expression.
+Bleak: A face marked by a sense of stark harsh emptiness.
+Hollow: A face with sunken features often indicating fatigue or sorrow.
+Stolid: A face showing great self-control with little emotional display.
+Ashen: A pale grayish face often associated with illness or shock.
+Hushed: A quiet subdued face as if holding back words or emotions.
+Taciturn: A face marked by reticence and a reluctance to speak or emote.

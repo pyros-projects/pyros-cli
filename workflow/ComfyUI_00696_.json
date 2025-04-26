@@ -1,0 +1,244 @@
+{
+  "5": {
+    "inputs": {
+      "width": 1024,
+      "height": 1024,
+      "batch_size": 1
+    },
+    "class_type": "EmptyLatentImage",
+    "_meta": {
+      "title": "Empty Latent Image"
+    }
+  },
+  "17": {
+    "inputs": {
+      "samples": [
+        "82",
+        0
+      ],
+      "vae": [
+        "50",
+        0
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "VAE Decode"
+    }
+  },
+  "50": {
+    "inputs": {
+      "vae_name": "ae.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "Load VAE"
+    }
+  },
+  "80": {
+    "inputs": {
+      "noise_seed": 1348
+    },
+    "class_type": "RandomNoise",
+    "_meta": {
+      "title": "RandomNoise"
+    }
+  },
+  "82": {
+    "inputs": {
+      "noise": [
+        "80",
+        0
+      ],
+      "guider": [
+        "103",
+        0
+      ],
+      "sampler": [
+        "105",
+        0
+      ],
+      "sigmas": [
+        "101",
+        0
+      ],
+      "latent_image": [
+        "5",
+        0
+      ]
+    },
+    "class_type": "SamplerCustomAdvanced",
+    "_meta": {
+      "title": "SamplerCustomAdvanced"
+    }
+  },
+  "101": {
+    "inputs": {
+      "scheduler": "simple",
+      "steps": 28,
+      "denoise": 1,
+      "model": [
+        "112",
+        0
+      ]
+    },
+    "class_type": "BasicScheduler",
+    "_meta": {
+      "title": "BasicScheduler"
+    }
+  },
+  "102": {
+    "inputs": {
+      "sampler_name": "uni_pc_bh2"
+    },
+    "class_type": "KSamplerSelect",
+    "_meta": {
+      "title": "KSamplerSelect"
+    }
+  },
+  "103": {
+    "inputs": {
+      "cfg": 1,
+      "model": [
+        "112",
+        0
+      ],
+      "positive": [
+        "109",
+        0
+      ],
+      "negative": [
+        "110",
+        0
+      ]
+    },
+    "class_type": "CFGGuider",
+    "_meta": {
+      "title": "CFGGuider"
+    }
+  },
+  "105": {
+    "inputs": {
+      "detail_amount": 0.15000000000000002,
+      "start": 0.30000000000000004,
+      "end": 0.7000000000000001,
+      "bias": 0.5,
+      "exponent": 1,
+      "start_offset": 0,
+      "end_offset": 0,
+      "fade": 0,
+      "smooth": true,
+      "cfg_scale_override": 0,
+      "sampler": [
+        "102",
+        0
+      ]
+    },
+    "class_type": "DetailDaemonSamplerNode",
+    "_meta": {
+      "title": "Detail Daemon Sampler"
+    }
+  },
+  "108": {
+    "inputs": {
+      "clip_name1": "clip_g_hidream.safetensors",
+      "clip_name2": "clip_l_hidream.safetensors",
+      "clip_name3": "t5xxl_fp8_e4m3fn_scaled.safetensors",
+      "clip_name4": "llama_3.1_8b_instruct_fp8_scaled.safetensors"
+    },
+    "class_type": "QuadrupleCLIPLoader",
+    "_meta": {
+      "title": "QuadrupleCLIPLoader"
+    }
+  },
+  "109": {
+    "inputs": {
+      "text": "cartoon 2d anime pencil artwork image of a pretty woman doing a backbend wearing a black and orange shiny fancy futuristic bodysuit",
+      "clip": [
+        "108",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP Text Encode (Positive Prompt)"
+    }
+  },
+  "110": {
+    "inputs": {
+      "text": "",
+      "clip": [
+        "108",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP Text Encode (Negative)"
+    }
+  },
+  "112": {
+    "inputs": {
+      "shift": 6.000000000000001,
+      "model": [
+        "123",
+        0
+      ]
+    },
+    "class_type": "ModelSamplingSD3",
+    "_meta": {
+      "title": "ModelSamplingSD3"
+    }
+  },
+  "115": {
+    "inputs": {
+      "unet_name": "hidream_i1_dev_bf16.safetensors",
+      "weight_dtype": "fp8_e4m3fn"
+    },
+    "class_type": "UNETLoader",
+    "_meta": {
+      "title": "Load Diffusion Model"
+    }
+  },
+  "117": {
+    "inputs": {
+      "filename_prefix": "ComfyUI",
+      "images": [
+        "17",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save Image"
+    }
+  },
+  "119": {
+    "inputs": {
+      "lora_name": "hidream\\ruppel_34.safetensors",
+      "strength_model": 0.7000000000000002,
+      "model": [
+        "115",
+        0
+      ]
+    },
+    "class_type": "LoraLoaderModelOnly",
+    "_meta": {
+      "title": "LoraLoaderModelOnly"
+    }
+  },
+  "123": {
+    "inputs": {
+      "lora_name": "hidream\\microwaist_e40.safetensors",
+      "strength_model": 0,
+      "model": [
+        "119",
+        0
+      ]
+    },
+    "class_type": "LoraLoaderModelOnly",
+    "_meta": {
+      "title": "LoraLoaderModelOnly"
+    }
+  }
+}

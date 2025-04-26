@@ -1,0 +1,80 @@
+Monochrome: Black and white, shades of gray
+Complementary: Opposing colors on the color wheel (e.g., red and green, blue and orange)
+Analogous: Colors next to each other on the color wheel (e.g., blue, blue-green, green)
+Triadic: Three colors evenly spaced on the color wheel (e.g., red, yellow, blue)
+Tetrad: Four colors evenly spaced on the color wheel (e.g., red, yellow, green, blue)
+Earth Tones: Browns, beiges, greens, yellows, oranges
+Jewel Tones: Rich, saturated colors like emerald green, sapphire blue, ruby red, amethyst purple
+Pastel: Soft, muted versions of colors (e.g., light pink, mint green, lavender)
+Neon: Bright, fluorescent colors (e.g., lime green, hot pink, electric blue)
+Sunset: Warm colors like orange, red, pink, yellow
+Sunrise: Cool colors like pink, orange, yellow, blue
+Ocean: Blues, greens, whites, grays
+Forest: Greens, browns, beiges, yellows
+Desert: Browns, oranges, yellows, pinks
+Scandinavian: Whites, grays, blues, light woods
+Industrial: Grays, blacks, whites, metallics
+Retro: Bold primary colors, pastels, browns, oranges
+Pop Art: Bright, contrasting colors, black and white
+Minimalist: Black, white, one or two accent colors
+Muted: Soft, low-contrast colors with low saturation
+Vivid: Bright, saturated colors with high contrast
+Warm: Colors with red, orange, and yellow hues
+Cool: Colors with blue, green, and purple hues
+Rainbow: All colors of the spectrum
+Seafoam Green: Light green, blue, white
+Sunset Hues: Orange, pink, purple, gold
+Midnight City: Dark blues, purples, grays, yellows
+Cherry Blossom: Pink, white, greens
+Pumpkin Spice: Orange, brown, yellow, cream
+Ocean Breeze: Blue, green, white, sand (beige)
+Tropical Paradise: Blue, green, turquoise, yellow
+Candyland: Pinks, blues, purples, yellows, greens
+Space Odyssey: Black, white, blues, purples
+Fire and Ice: Red, orange, yellow, blue, white
+Autumn Leaves: Red, orange, yellow, brown
+Muted Rainbow: Soft versions of red, orange, yellow, green, blue, indigo, violet
+Black and Gold: Black, gold, with a touch of white
+Muted Earth Tones: Soft browns, greens, beiges
+Pastel Rainbow: Soft versions of red, orange, yellow, green, blue, indigo, violet
+Neon Night: Bright, fluorescent blues, pinks, purples, greens
+Citrus: Yellow, orange, lime green, white
+Muted Jewel Tones: Desaturated versions of emerald green, sapphire blue, ruby red, amethyst purple
+Scuba Dive: Blue, teal, turquoise, coral (pink/orange)
+Moody Blues: Dark blues, grays, purples, hints of white
+Watermelon: Pink, red, green, white
+Lavender Field: Lavender, purple, green, yellow
+Sunrise over Mountains: Orange, pink, purple, blue hues
+Forest at Night: Dark greens, blues, grays, hints of yellow
+Desert Sunset: Orange, red, purple, pink, black
+Mediterranean: Blue, turquoise, white, terracotta (orange)
+Industrial Chic: Black, white, gray, metallic accents (gold, silver)
+Art Deco: Black, gold, cream, pops of red or green
+Memphis Style: Bold, geometric patterns with contrasting colors, black, white
+Bauhaus: Black, white, primary colors (red, yellow, blue)
+Minimalist Monochrome: Black, white, various shades of gray
+Muted Pastel: Soft, low-saturated versions of pastel colors
+Vivid Triad: Three brightly saturated colors from opposite corners of the color wheel
+Warm Analogous: Analogous colors with warm hues (e.g., orange, yellow-orange, yellow)
+Cool Analogous: Analogous colors with cool hues (e.g., blue, blue-green, green)
+Split Complementary: A color and the colors on either side of its complementary color on the wheel
+Analogous Tetrad: Four colors adjacent to each other on the color wheel
+Neon Sunrise: Bright versions of orange, pink, yellow, with hints of blue
+Galaxy: Black, purple, blue, white, with accents of pink, yellow
+Forest Fog: Light green, blue, gray, white
+Underwater Cave: Dark blue, teal, green, with bioluminescent accents (blue, green)
+Candy Apple: Red, white, green, black
+Tropical Sunset: Orange, pink, purple, turquoise
+Cyberpunk: Black, blue, purple, neon green/pink
+Fireworks: Orange, yellow, red, purple, white
+Autumn Harvest: Orange, red, brown, yellow, green
+Muted Earth with Pop: Muted browns, greens, beiges, with a bright accent color
+Pastel Rainbow Gradient: Smooth transition from one pastel color to another across the spectrum
+Neon Glitch: Randomly placed neon colors with black background
+Black and White with Texture: Black, white, with textures like wood grain or marble
+Muted Jewel Tone Gradient: Smooth transition from one desaturated jewel tone to another
+Scandinavian Forest: White, grays, light blues, deep greens
+Industrial Sunset: Dark grays, browns, with orange and red hues in the sky
+Art Deco Floral: Black, gold, cream, with floral patterns in pastel colors
+Memphis Stripes: Bold, contrasting stripes in various colors, black and white
+Bauhaus Geometric: Geometric shapes in black, white, and primary colors

@@ -1,0 +1,100 @@
+House
+Apartment Building
+Villa Building
+Bungalow Building
+Cottage Building
+Townhouse Building
+Condominium Building
+Duplex Building
+Triplex Building
+Mansion Building
+Farmhouse Building
+Ranch House Building
+Log Cabin Building
+Chalet Building
+Castle Building
+Palace Building
+Manor House Building
+Chateau Building
+Caravan/RV Building
+Treehouse Building
+Skyscraper Building
+Office Building
+Hospital Building
+School/University Building
+Library Building
+Museum Building
+Shopping Mall Building
+Warehouse Building
+Factory Building
+Church/Cathedral Building
+Mosque Building
+Temple Building
+Synagogue Building
+Pagoda Building
+Shrine Building
+Mausoleum/Tomb Building
+Lighthouse Building
+Fire Station Building
+Police Station Building
+Courthouse Building
+Government Building
+City Hall Building
+Post Office Building
+Bank Building
+Airport Terminal Building
+Train Station Building
+Bus Station Building
+Subway Station Building
+Amusement Park Building
+Zoo Building
+Aquarium Building
+Stadium/Arena Building
+Convention Center Building
+Theater Building
+Cinema Building
+Concert Hall Building
+Hotel Building
+Motel Building
+Resort Building
+Hostel Building
+Casino Building
+Restaurant Building
+Café/Coffee Shop Building
+Bar/Pub Building
+Nightclub Building
+Shopping Center Building
+Supermarket Building
+Grocery Store Building
+Gas Station Building
+Car Dealership Building
+Car Wash Building
+Parking Garage Building
+Car Repair Shop Building
+Gym/Fitness Center Building
+Spa/Wellness Center Building
+Swimming Pool Building
+Bowling Alley Building
+Skating Rink Building
+Golf Course/Club
+Tennis Court
+Basketball Court
+Soccer Field
+Baseball Field
+Cricket Ground
+Playground Building
+Water Park Building
+Beach Resort Building
+Ski Resort Building
+Camping Ground Building
+Botanical Garden Building
+Nature Reserve Building
+National Park Building
+Theme Park Building
+Shopping Street Building
+Pedestrian Zone Building
+Plaza/Square Building
+Garden/Park Building
+Bridge Building
+Dam Building
+Pier Building

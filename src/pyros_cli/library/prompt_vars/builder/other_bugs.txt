@@ -1,0 +1,200 @@
+Ant
+Bee
+Wasp
+Hornet
+Yellow Jacket
+Ladybug
+Beetle
+Butterfly
+Moth
+Dragonfly
+Grasshopper
+Cricket
+Praying Mantis
+Stick Insect
+Walking Stick
+Cockroach
+Termite
+Silverfish
+Earwig
+Firefly
+Flea
+Bed Bug
+Louse
+Tick
+Mosquito
+Fly
+Housefly
+Fruit Fly
+Horsefly
+Black Fly
+Crane Fly
+Horsehair Worm
+Centipede
+Millipede
+Scorpion
+Spider
+Tarantula
+Wolf Spider
+Black Widow Spider
+Brown Recluse Spider
+Jumping Spider
+Orb-Weaver Spider
+Funnel Web Spider
+Camel Spider
+Vinegaroon
+Prionus Beetle
+Goliath Beetle
+Stag Beetle
+Rhinoceros Beetle
+Hercules Beetle
+Longhorn Beetle
+Ground Beetle
+Jewel Beetle
+Click Beetle
+Fire Beetle
+Water Beetle
+Lady Beetle
+Bess Beetle
+Scarab Beetle
+Oil Beetle
+Darkling Beetle
+Whirligig Beetle
+Rove Beetle
+Snail Beetle
+Leaf Beetle
+Mayfly
+Stonefly
+Dobsonfly
+Alderfly
+Caddisfly
+Lacewing
+Damselfly
+Cicada
+Katydid
+Aphid
+Whitefly
+Leafhopper
+Planthopper
+Spittlebug
+Lanternfly
+Shield Bug
+Stink Bug
+Assassin Bug
+Bed Bug
+Water Boatman
+Water Strider
+Giant Water Bug
+Backswimmer
+Diving Beetle
+Bark Beetle
+Powderpost Beetle
+Carpet Beetle
+Deathwatch Beetle
+Drugstore Beetle
+Ground-Dwelling Beetle
+Longhorned Beetle
+Seed Beetle
+Snout Beetle
+Tortoise Beetle
+Water Penny Beetle
+Acorn Weevil
+Boll Weevil
+Grain Weevil
+Pine Weevil
+Strawberry Root Weevil
+Wheat Weevil
+Click Weevil
+Flea Weevil
+Gall Midge
+Gall Wasp
+Gall Mite
+Cabbage White Butterfly
+Monarch Butterfly
+Painted Lady Butterfly
+Swallowtail Butterfly
+Buckeye Butterfly
+Skipper Butterfly
+Clouded Sulphur Butterfly
+Hairstreak Butterfly
+Red Admiral Butterfly
+Viceroy Butterfly
+Gulf Fritillary Butterfly
+Mourning Cloak Butterfly
+Luna Moth
+Atlas Moth
+Sphinx Moth
+Emperor Moth
+Io Moth
+Cecropia Moth
+Polyphemus Moth
+Tussock Moth
+Gypsy Moth
+Bagworm Moth
+Tiger Moth
+Woolly Bear Caterpillar
+Cabbage Worm
+Tomato Hornworm
+Tobacco Hornworm
+Silkworm
+Mealworm
+Flour Beetle
+Confused Flour Beetle
+Sawtoothed Grain Beetle
+Red Flour Beetle
+Ground Beetle Larva
+Mealybug
+Psyllid
+Leafcutter Ant
+Bullet Ant
+Army Ant
+Weaver Ant
+Trap-Jaw Ant
+Bullet Ant
+Asian Giant Hornet
+European Hornet
+Bald-Faced Hornet
+Yellowjacket Wasp
+Paper Wasp
+Mud Dauber Wasp
+Braconid Wasp
+Ichneumon Wasp
+Cuckoo Wasp
+Sand Wasp
+Velvet Ant
+Beewolf Wasp
+Jewel Wasp
+Tarantula Hawk Wasp
+Polistes Wasp
+Sphecoid Wasp
+Scaly Bee Fly
+Robber Fly
+Hoverfly
+Blowfly
+Flesh Fly
+Green Bottle Fly
+Blue Bottle Fly
+Horse Fly
+Syrphid Fly
+Crane Fly
+Black Soldier Fly
+Tiger Crane Fly
+Common Earwig
+European Earwig
+Silverfish
+Firebrat
+Springtail
+Glowworm
+European Glowworm
+Fungus Gnat
+Drain Fly
+Mosquito Hawk
+Dark Fishing Spider
+Bold Jumping Spider
+Spiny Orb-Weaver Spider
+Furrow Orb-Weaver Spider
+Marbled Orb-Weaver Spider
+Bolas Spider
+Spotted Orb-Weaver Spider
+Arrowhead Orb-Weaver Spider
+Woodlouse Spider

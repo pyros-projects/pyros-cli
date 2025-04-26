@@ -1,0 +1,100 @@
+Action Movie Style
+Adventure Movie Style
+Comedy Movie Style
+Drama Movie Style
+Thriller Movie Style
+Horror Movie Style
+Sci-Fi Movie Style
+Fantasy Movie Style
+Romance Movie Style
+Mystery Movie Style
+Historical Movie Style
+War Movie Style
+Western Movie Style
+Crime Movie Style
+Musical Movie Style
+Biographical Movie Style
+Documentary Movie Style
+Superhero Movie Style
+Animated Movie Style
+Family Movie Style
+Teen Movie Style
+Coming-of-Age Movie Style
+Noir Movie Style
+Post-Apocalyptic Movie Style
+Dystopian Movie Style
+Space Opera Movie Style
+Cyberpunk Movie Style
+Time Travel Movie Style
+Found Footage Movie Style
+Mockumentary Movie Style
+Disaster Movie Style
+Psychological Thriller Movie Style
+Supernatural Movie Style
+Slasher Movie Style
+Monster Movie Style
+Alien Invasion Movie Style
+Zombie Movie Style
+Vampire Movie Style
+Werewolf Movie Style
+Ghost Story Movie Style
+Magical Realism Movie Style
+Romantic Comedy Movie Style
+Historical Fantasy Movie Style
+Medieval Movie Style
+Victorian Movie Style
+World War Movie Style
+Cold War Movie Style
+Martial Arts Movie Style
+Spy Movie Style
+Heist Movie Style
+Courtroom Drama Movie Style
+Superhero Team-Up Movie Style
+Space Exploration Movie Style
+Sports Movie Style
+Animation Movie Style
+Musical Fantasy Movie Style
+Time Loop Movie Style
+Steampunk Movie Style
+Ancient Civilization Movie Style
+Sword and Sorcery Movie Style
+Gladiator Movie Style
+Ancient Egypt Movie Style
+Arthurian Legend Movie Style
+Wild West Movie Style
+Samurai Movie Style
+Viking Movie Style
+Greek Mythology Movie Style
+Fairy Tale Movie Style
+Film Noir Movie Style
+War Comedy Movie Style
+Post-Apocalyptic Fantasy Movie Style
+Cyberpunk Noir Movie Style
+Noir Detective Movie Style
+Alternate History Movie Style
+Cyberpunk Adventure Movie Style
+Space Western Movie Style
+Underwater Adventure Movie Style
+Pirate Movie Style
+Mafia Movie Style
+Spy Comedy Movie Style
+Supernatural Romance Movie Style
+Time-Traveling Romance Movie Style
+Gothic Romance Movie Style
+Time-Traveling Drama Movie Style
+Historical Drama Movie Style
+Biographical Drama Movie Style
+War Fantasy Movie Style
+Medieval Comedy Movie Style
+Science Fantasy Movie Style
+Fairy Tale Adventure Movie Style
+Urban Fantasy Movie Style
+Alien Conspiracy Movie Style
+Ancient Rome Movie Style
+Dystopian Romance Movie Style
+Space Heist Movie Style
+Paranormal Mystery Movie Style
+Zombie Comedy Movie Style
+Supernatural Thriller Movie Style
+Time-Traveling Adventure Movie Style
+Martial Arts Fantasy Movie Style

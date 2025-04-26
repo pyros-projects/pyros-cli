@@ -1,0 +1,248 @@
+Defensive
+Fulfilled
+Despondent
+Astonished
+Chipper
+Disbelief
+Pride
+Radiant
+Jovial
+Surprise
+Intrigued
+Sneer
+Clenched jaw
+Jealousy
+Intense
+Hesitant
+Amusement
+Witty
+Fear
+Indifferent
+Elated
+Adoring
+Tickled
+Overwhelmed
+Sarcastic
+Huffy
+Furious
+Laugh
+Frustrated
+Melancholic
+Sincere
+Puzzled
+Pout
+Scowl
+Apprehensive
+Delight
+Comfortable
+Reflective
+Relaxed
+Squinting
+Frown
+Serene
+Smug
+Irritated
+Curiosity
+Fascinated
+Content
+Sanguine
+Resentful
+Playful
+Wide-eyed
+Dismayed
+Enraged
+Confused
+Worry
+Taunting
+Cry
+Tongue out
+Confusion
+Disgruntled
+Devastated
+Open-mouthed
+Sadness
+Embarrassment
+Raised nostrils
+Interest
+Blissful
+Tight-lipped
+Mocking
+Scornful
+Encouraged
+Bewildered
+Restless
+Relieved
+Smile
+Captivated
+Sarcasm
+Baffled
+Excitement
+Relief
+Triumphant
+Contempt
+Disheartened
+Gleeful
+Grateful
+Awestruck
+Anger
+Grimace
+Giddy
+Skepticism
+Fuming
+Amused
+Derisive
+Boredom
+Overjoyed
+Awe
+Perplexed
+Happiness
+Sigh
+Wary
+Apathetic
+Inquisitive
+Flustered
+Displeased
+Smirk
+Satisfied
+Raised one eyebrow
+Contemplative
+Anxious
+Delighted
+Satisfaction
+Enthralled
+Droll
+Infuriated
+Raised eyebrows
+Uncertain
+Indignant
+Grin
+Reassured
+Quizzical expression
+Insulted
+Raised cheekbones
+Euphoric
+Jubilant
+Disgust
+Shock
+Cheerful
+Timid
+Engrossed
+Worried
+Appalled
+Side-eye
+Raised chin
+Thoughtful
+Relieved
+Thrilled
+Shame
+Impassioned
+Ecstatic
+Happiness
+Sadness
+Anger
+Disgust
+Fear
+Surprise
+Neutral
+Contempt
+Jealousy
+Envy
+Shame
+Guilt
+Proud
+Happy
+Excited
+Thrilled
+Confused
+Annoyed
+Amused
+Intrigued
+Interested
+Curious
+Motivated
+Eager
+Optimistic
+Hopeful
+Encouraged
+Satisfied
+Content
+Grateful
+Appreciative
+Elated
+Overjoyed
+Euphoric
+Jubilant
+Celebratory
+Triumphant
+Victorious
+Ecstatic
+Joyous
+Blissful
+Radiant
+Glowing
+Splendid
+Magnificent
+Superb
+Stellar
+Outstanding
+Phenomenal
+Extraordinary
+Smiling: Curled lips raised cheeks squinted eyes conveying joy happiness or amusement.
+Laughing: Rapid jaw movements raised cheeks squinted eyes open mouth indicating amusement or mirth.
+Grinning: Slightly raised lips widened eyes indicating amusement satisfaction or sarcasm.
+Cheerful: Upturned mouth crinkled eyes suggesting happiness lightheartedness or optimism.
+Contented: Relaxed facial muscles closed eyes slightly lifted corners of the mouth conveying satisfaction serenity or contentment.
+Surprised: Widened eyes raised eyebrows open mouth indicating surprise or shock.
+Astonished: Wide eyes raised eyebrows open mouth slightly pulled back lips showing disbelief or amazement.
+Confused: Furrowed eyebrows tilted head puzzled expression suggesting bewilderment or uncertainty.
+Thoughtful: Brows furrowed slightly eyes narrowed contemplative expression indicating concentration or introspection.
+Focused: Intense gaze narrowed eyes pursed lips showcasing concentration and determination.
+Intrigued: Slightly raised eyebrows attentive gaze indicating curiosity or interest.
+Observant: Intent stare slightly tilted head suggesting scrutiny or attention to detail.
+Worried: Furrowed eyebrows knitted brows furrowed forehead indicating concern or anxiety.
+Frustrated: Scrunched nose furrowed eyebrows tightened lips conveying annoyance irritation or frustration.
+Angry: Tightened jaw clenched teeth furrowed eyebrows raised eyebrows indicating anger rage or hostility.
+Upset: Downturned lips furrowed eyebrows indicating sadness disappointment or grief.
+Disappointed: Downturned lips slightly narrowed eyes suggesting sadness regret or unfulfilled expectations.
+Sad: Downturned lips slightly raised eyebrows indicating sadness melancholy or unhappiness.
+Anguished: Furrowed eyebrows clenched teeth tears welling up indicating severe distress pain or suffering.
+Horrified: Widened eyes open mouth contorted facial expression conveying intense fear disgust or revulsion.
+Skeptical: Raised eyebrows pursed lips skeptical expression suggesting disbelief or doubt.
+Disdainful: Raised eyebrows turned-down lips curled nose conveying contempt or disdain.
+Disgusted: Curled upper lip raised eyebrows indicating strong aversion or repulsion.
+Sarcastic: Raised eyebrow tilted head slightly curled lips suggesting mockery or irony.
+Condescending: Smirk raised eyebrows patronizing expression conveying arrogance or superiority.
+Boastful: Wide grin chest puffed out exuding pride or self-importance.
+Proud: Smiling confidently head held high indicating satisfaction and self-respect.
+Empathetic: Downturned eyebrows gentle gaze suggesting sympathy or understanding.
+Appreciative: Nod slightly raised eyebrows indicating gratitude or approval.
+Inspired: Wide-eyed slightly raised eyebrows conveying excitement motivation or creativity.
+Dreamy: Soft smile distant gaze suggesting contemplation longing or a sense of wonder.
+Shy: Downcast eyes hesitant expression indicating humility or self-consciousness.
+Reserved: Neutral expression unmoving facial muscles suggesting composure or reserve.
+Energetic: Energetic smile animated gestures indicating enthusiasm excitement or vitality.
+Passionate: Intense gaze flushed cheeks suggesting strong emotions devotion or fervor.
+Romantic: Soft eyes gentle smile suggesting love affection or tenderness.
+Devious: Smirk narrowed eyes suggesting cunning deceit or mischief.
+Intimidating: Stern expression furrowed eyebrows raised chin conveying authority power or threat.
+Vulnerable: Downcast eyes trembling lips indicating insecurity uncertainty or helplessness.
+Resolute: Determined gaze clenched jaw slightly raised eyebrows suggesting unwavering determination or resolve.
+Sullen: Downturned lips lowered eyelids suggesting gloom apathy or dejection.
+Dejected: Upturned nose downturned mouth indicating disappointment discouragement or hopelessness.
+Haunted: Wide vacant stare pale complexion conveying sadness melancholy or a sense of loss.
+Bewildered: Wide-eyed furrowed eyebrows tilted head suggesting confusion perplexity or bewilderment.
+Exhausted: Drooping eyelids slumped shoulders indicating fatigue tiredness or lack of energy.
+Sleepy: Yawning droopy eyes glazed look suggesting drowsiness fatigue or sleepiness.
+Bored: Unfocused gaze slightly raised eyebrows indicating disinterest apathy or boredom.
+Annoyed: Scrunched nose raised eyebrows slightly pursed lips conveying irritation impatience or annoyance.
+Irritated: Frown narrowed eyes slightly pursed lips indicating annoyance frustration or restlessness.
+Impatient: Taping foot clenched jaw slightly raised eyebrows suggesting restlessness eagerness or impatience.
+Anxious: Fidgeting furrowed eyebrows widened eyes indicating nervousness worry or apprehension.
+Fearful: Wide-eyed open mouth slightly raised eyebrows conveying fear terror or dread.
+Terrified: Wide-eyed open mouth clenched jaw trembling lips suggesting intense fear panic or terror.
+Shocked: Wide-eyed open mouth slightly raised eyebrows indicating surprise disbelief or astonishment.
+Aghast: Wide-eyed open mouth raised eyebrows curled lips conveying shock horror or dismay.
+Startled: Wide-eyed open mouth raised eyebrows sudden movement indicating sudden surprise or alarm.
+Cautious: Eyes narrowed slightly raised eyebrows indicating wariness suspicion or apprehension.
+Suspicious: Furrowed eyebrows narrowed eyes slightly pursed lips conveying doubt skepticism or mistrust.
+Alert: Wide-eyed slightly raised eyebrows indicating attentiveness vigilance or readiness.

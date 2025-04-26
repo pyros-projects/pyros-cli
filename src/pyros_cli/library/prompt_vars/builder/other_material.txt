@@ -1,0 +1,90 @@
+Cotton material
+Wool material
+Linen material
+Silk material
+Leather material
+Denim material
+Fleece material
+Nylon material
+Polyester material
+Spandex material
+Rayon material
+Acrylic material
+Tencel material
+Modal material
+Cashmere material
+Seersucker material
+Chambray material
+Gingham material
+Poplin material
+Oxford material
+Twill material
+Corduroy material
+Velvet material
+Satin material
+Chiffon material
+Lace material
+Mesh material
+Fleece lining material
+Down material
+Faux fur material
+Hemp material
+Bamboo material
+Lyocell material
+Modal material
+Ramie material
+Jute material
+Tencel Lyocell material
+Modal Rayon material
+Viscose material
+Acetate material
+Triacetate material
+Cupro material
+Modal Tencel material
+Lyocell Rayon material
+Bamboo Rayon material
+Tencel Modal material
+Merino wool material
+Cashmere wool material
+Angora wool material
+Alpaca wool material
+Mohair wool material
+Faux leather material
+Pleather material
+Vegan leather material
+PU leather material
+Faux suede material
+Microsuede material
+Neoprene material
+Canvas material
+Flannel material
+Silk organza material
+Cashmere blend material
+Sequin fabric material
+Mesh jersey material
+Ripstop nylon material
+French terry material
+Sateen cotton material
+Supplex material
+Merino wool blend material
+Faux shearling material
+Fleece lining material
+Down alternative material
+Wicking material
+Breathable material
+Waterproof material
+Fire-resistant material
+Recycled material
+Organic cotton material
+Bamboo viscose material
+Tencel modal blend material
+Microfiber material
+Denim blend material
+Linen blend material
+Silk blend material
+Wool blend material
+Performance fabric material
+Activewear material
+Loungewear material
+Formalwear material
+Knit material

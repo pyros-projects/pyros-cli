@@ -1,0 +1,100 @@
+Carrot
+Tomato
+Cabbage
+Broccoli
+Cauliflower
+Spinach
+Lettuce
+Kale
+Potato
+Sweet Potato
+Eggplant
+Zucchini
+Cucumber
+Bell Pepper
+Jalapeño
+Pumpkin
+Squash
+Brussels Sprouts
+Asparagus
+Green Beans
+Peas
+Corn
+Radish
+Turnip
+Celery
+Bok Choy
+Leek
+Artichoke
+Beetroot
+Parsnip
+Shallot
+Onion
+Garlic
+Ginger
+Okra
+Swiss Chard
+Collard Greens
+Fennel
+Watercress
+Arugula
+Kohlrabi
+Romaine Lettuce
+Spring Onion
+Chives
+Thyme
+Cilantro
+Parsley
+Basil
+Mint
+Dill
+Rosemary
+Sage
+Oregano
+Marjoram
+Bay Leaf
+Tarragon
+Savory
+Dandelion Greens
+Escarole
+Endive
+Mustard Greens
+Turnip Greens
+Sorrel
+Collard Greens
+Malabar Spinach
+Amaranth Leaves
+Chard
+Lamb's Lettuce
+Napa Cabbage
+Daikon Radish
+Radicchio
+Pak Choi
+Chinese Cabbage
+Broccolini
+Fiddlehead Ferns
+Bamboo Shoots
+Lotus Root
+Water Chestnut
+Chayote
+Yardlong Bean
+Yuca
+Jicama
+Kohlrabi
+Kelp
+Wakame
+Hijiki
+Nori
+Arame
+Chlorella
+Spirulina
+Moringa
+Collard Greens
+Seaweed
+Daikon Radish
+Enoki Mushroom
+Shitake Mushroom
+Portobello Mushroom
+Oyster Mushroom
+Chanterelle Mushroom
+Maitake Mushroom
