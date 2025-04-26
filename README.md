@@ -183,7 +183,7 @@ Here an overview:
 
 ### Web Gallery
 
-Use the `/gallery` command to open the gallery in your browser
+Use the `/gallery` command to open the gallery in your browser (Cntrl+C to close)
 
 https://github.com/user-attachments/assets/e6b25a57-af60-4810-9797-8f3a64b7d713
 
