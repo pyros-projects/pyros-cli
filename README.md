@@ -173,6 +173,12 @@ https://github.com/user-attachments/assets/2c0fc3df-6bca-480e-8102-25a4342e7b7a
 
 ### Optimize your prompts with AI
 
+### Web Gallery
+
+Use the `/gallery` command to open the gallery in your browser
+
+https://github.com/user-attachments/assets/e6b25a57-af60-4810-9797-8f3a64b7d713
+
 ## Pyro's CLI prompt syntax & other concepts
 
 ### Base prompt and evaluated prompt
