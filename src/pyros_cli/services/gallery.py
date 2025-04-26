@@ -15,11 +15,11 @@ ALLOWED_EXTENSIONS = {'.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg', '.bmp'}
 # --- End Configuration ---
 
 # Check if image directory exists on startup
-if not IMAGE_DIR.is_dir():
-    print(f"Error: Image directory '{IMAGE_DIR}' not found.")
-    print(f"Please create it in the same directory as this script and add images.")
-    # You could raise an exception here to stop the server from starting
-    # raise FileNotFoundError(f"Image directory '{IMAGE_DIR}' not found.")
+# if not IMAGE_DIR.is_dir():
+#     print(f"Error: Image directory '{IMAGE_DIR}' not found.")
+#     print(f"Please create it in the same directory as this script and add images.")
+#     # You could raise an exception here to stop the server from starting
+#     # raise FileNotFoundError(f"Image directory '{IMAGE_DIR}' not found.")
 
 # Define headers for external libraries (CSS & JS)
 # Using CDNs for simplicity
