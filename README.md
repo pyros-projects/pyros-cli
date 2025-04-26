@@ -173,6 +173,14 @@ https://github.com/user-attachments/assets/2c0fc3df-6bca-480e-8102-25a4342e7b7a
 
 ### Optimize your prompts with AI
 
+## Commands
+
+Besides prompts you can also input commands.
+
+Get a list of them with `/help`
+
+Here an overview:
+
 ### Web Gallery
 
 Use the `/gallery` command to open the gallery in your browser
