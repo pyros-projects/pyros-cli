@@ -11,6 +11,9 @@ Pyros CLI is a command-line interface tool designed to facilitate text-to-image 
 - Command system for special operations
 - Multi-image batch generation
 - Image preview and gallery functionalities
+  - Web-based interactive gallery with responsive layout
+  - Full-screen image viewing with prompt text display
+  - Background server that allows continued CLI usage
 - Session-based prompt history
 - Optional AI-enhanced prompt creation (with Ollama, OpenAI, Anthropic, Groq, Gemini)
 
@@ -44,6 +47,7 @@ Pyros CLI follows a modular design with clear separation of concerns:
 - **Batch Generation** - Generate multiple images with the same or varying prompts
 - **AI Enhancement** - Optional features to use AI models to enhance prompts or create variations (in progress)
 - **Command System** - Slash commands (like `/help`) for various operations
+- **Gallery System** - Web-based gallery for browsing and viewing generated images with their prompts
 
 ## Dependencies
 - ComfyUI server (must be running separately)

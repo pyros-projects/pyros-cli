@@ -5,6 +5,10 @@ from pathlib import Path
 import json # To safely inject the list into JavaScript
 from starlette.responses import FileResponse
 from starlette.exceptions import HTTPException
+import threading
+import webbrowser
+import socket
+import time
 
 
  # --- Configuration ---
@@ -282,11 +286,63 @@ document.addEventListener('DOMContentLoaded', () => {
 }); // End DOMContentLoaded
 """, type="module") # Important: type="module" for PhotoSwipe imports
 
-def show_gallery():
+# Hold the server thread reference
+gallery_server_thread = None
+# Store the gallery port
+gallery_port = None
 
-   
-    serve() # Automatically uses uvicorn, checks __main__
-    # --- Route Handlers ---
+def find_free_port():
+    """Find a free port to run the gallery server on."""
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        s.bind(('', 0))
+        return s.getsockname()[1]
+
+def start_server(port):
+    """Start the gallery server on the specified port."""
+    from uvicorn.config import Config
+    from uvicorn.server import Server
+    config = Config(app=app, host="127.0.0.1", port=port)
+    server = Server(config)
+    server.run()
+
+def show_gallery():
+    """
+    Start the gallery server in a background thread and open it in a web browser.
+    """
+    global gallery_server_thread
+    global gallery_port
+    
+    # If gallery is already running, just open the browser
+    if gallery_server_thread and gallery_server_thread.is_alive():
+        url = f"http://127.0.0.1:{gallery_port}"
+        webbrowser.open(url)
+        print(f"Gallery already running at {url}")
+        return
+    
+    # Find a free port
+    gallery_port = find_free_port()
+    
+    # Create and start the server thread
+    gallery_server_thread = threading.Thread(
+        target=start_server,
+        args=(gallery_port,),
+        daemon=True  # Daemon threads exit when the main program exits
+    )
+    gallery_server_thread.start()
+    
+    # Wait a moment for the server to start
+    time.sleep(1)
+    
+    # Open the browser
+    url = f"http://127.0.0.1:{gallery_port}"
+    webbrowser.open(url)
+    
+    print(f"Gallery server started at {url}")
+    
+    # Return the URL for reference
+    return url
+    
+# --- Route Handlers ---
 
 @rt("/")
 def get_gallery():
@@ -386,8 +442,7 @@ async def get_image(filename: str):
 
 # --- Run the application ---
 if __name__ == "__main__":
-
-    serve()
+    show_gallery()
         
 
    

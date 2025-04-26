@@ -135,6 +135,14 @@ class ComfyUISettings(BaseModel):
 ### Services
 - **Config**: Handles loading, saving, and verifying configuration
 - **Gallery**: Provides image browsing functionality
+  - Implements a web-based gallery using FastHTML framework
+  - Runs as a background thread to avoid blocking the CLI
+  - Dynamically finds available ports for the web server
+  - Serves images securely with proper validation
+  - Integrates PhotoSwipe for interactive image viewing
+  - Uses Masonry for responsive grid layout
+  - Displays prompt text alongside images
+  - Automatically opens the default web browser
 - **Preview**: Manages image display in terminal or OS viewer
 - **PromptEvaluate**: Processes commands and controls prompt evaluation
 - **PromptSubstitution**: Handles variable substitution

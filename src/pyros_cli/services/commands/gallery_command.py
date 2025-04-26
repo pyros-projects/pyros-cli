@@ -21,7 +21,10 @@ class GalleryCommand(BaseCommand):
     
     async def execute(self, args: str) -> CommandResult:
         """Show the gallery"""
-        show_gallery()
-        
+        print_subheader("Opening Gallery")
+        gallery_url = show_gallery()
+        console.print(f"Gallery is now running at [link={gallery_url}]{gallery_url}[/link]")
+        console.print("A browser window should open automatically. You can continue using Pyros CLI.")
+        console.print("Close the browser when you're done viewing the gallery.")
                 
         return CommandResult(is_command=True, should_generate=False) 

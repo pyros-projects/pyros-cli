@@ -85,6 +85,18 @@ Commands return a `CommandResult` object with:
 **Output**: Opens the gallery interface to browse generated images  
 **Affects Generation**: No  
 
+The gallery implementation provides the following features:
+- Launches a web-based gallery in a background thread using FastHTML and Uvicorn
+- Automatically finds an available port for the web server
+- Opens the user's default web browser to view the gallery
+- Allows the CLI to continue running while the gallery is open
+- Displays images with their associated prompts
+- Provides an interactive image viewer with PhotoSwipe integration
+- Uses Masonry layout for responsive grid arrangement of images
+- Shows prompt text when viewing individual images in full-screen mode
+- If the gallery is already running, reopens the browser without starting a new server
+- Serves images securely with proper validation against directory traversal
+
 ## Creating Custom Commands
 
 New commands can be created by:
