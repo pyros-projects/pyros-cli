@@ -6,10 +6,12 @@ class CommandResult:
                  is_command: bool = False, 
                  should_continue: bool = True,
                  should_generate: bool = True,
+                 should_reset_regenerate: bool = False,
                  data: Any = None):
         self.is_command = is_command  # Was the input a command
         self.should_continue = should_continue  # Should the main loop continue
         self.should_generate = should_generate  # Should image generation proceed
+        self.should_reset_regenerate = should_reset_regenerate  # Should reset regenerate mode and return to prompt input
         self.data = data  # Any data to return from command
 
 class BaseCommand:

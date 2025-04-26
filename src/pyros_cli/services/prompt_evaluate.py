@@ -12,6 +12,7 @@ from pyros_cli.services.commands.gallery_command import GalleryCommand
 from pyros_cli.services.commands.help_command import HelpCommand
 from pyros_cli.services.commands.list_vars_command import ListVarsCommand
 from pyros_cli.services.commands.cntrl_command import CntrlCommand
+from pyros_cli.services.commands.history_command import HistoryCommand
 from pyros_cli.services.config import load_config
 from pyros_cli.services.prompt_substitution import substitute_prompt_vars
 from pyros_cli.models.user_messages import WorkflowProperty
@@ -37,6 +38,7 @@ class CommandRegistry:
         self.register_command(CntrlCommand)
         self.register_command(ConfigureAiCommand)
         self.register_command(GalleryCommand)
+        self.register_command(HistoryCommand)
 
     def load_commands_from_directory(self, directory="services/commands"):
         """Load commands from the commands directory"""

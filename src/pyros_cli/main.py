@@ -189,6 +189,7 @@ async def start_cli():
     keep_seed = False
     number_of_images = 1
     final_image_paths = []
+    skip_next_action = False  # Flag to skip the "What next?" section
 
     # Get the autocomplete suggestions once before the loop
     autocomplete_choices = get_autocomplete_suggestions()
@@ -210,6 +211,7 @@ async def start_cli():
             user_messages.set_base_prompt(current_prompt)
 
             
+        skip_next_action = False  # Reset the flag at the start of each iteration
 
         with Progress(
             SpinnerColumn(),
@@ -227,11 +229,18 @@ async def start_cli():
                 if current_prompt is None or current_prompt.lower() in ["exit", "quit"]:
                     console.print("Exiting playground.", style="bold yellow")
                     break
-                
+                progress.stop()
                 # Process commands
                 command_result = await evaluate_prompt(current_prompt)
                 if command_result.is_command:
                     if not command_result.should_continue:
+                        # Check if we need to reset regenerate_mode
+                        if command_result.should_reset_regenerate:
+                            regenerate_mode = False
+                            # Reload user_messages to get the updates made by the command
+                            user_messages = UserMessages.load_from_file()
+                            # Set flag to skip the "What next?" section
+                            skip_next_action = True
                         break
                         
                     if not command_result.should_generate:
@@ -299,7 +308,7 @@ async def start_cli():
             progress.stop()
 
          # Display final image using OS viewer (optional)
-        if final_image_paths and number_of_images == 1:
+        if final_image_paths and number_of_images == 1 and not skip_next_action:
             # Attempt to show the first final image
             show_image  = await questionary.confirm("Show Image?", default=False).ask_async()
             if show_image:
@@ -310,51 +319,53 @@ async def start_cli():
 
         # --- Ask for next action ---
         console.line()
-        next_action = await questionary.select(
-            "What next?",
-            choices=[
-                questionary.Choice("Continue with base prompt", "base"),
-                questionary.Choice("Continue with evaluated prompt", "evaluated"),
-                questionary.Choice("Regenerate Base Prompt", "regenerate_base"),
-                questionary.Choice("Regenerate Evaluated Prompt", "regenerate_evaluated"),
-                questionary.Choice("Quit", "quit"),
-            ],
-            use_shortcuts=True, # Allows typing 'n', 'r', 'q'
-        ).ask_async()
+        if not skip_next_action:
+            next_action = await questionary.select(
+                "What next?",
+                choices=[
+                    questionary.Choice("Continue with base prompt", "base"),
+                    questionary.Choice("Continue with evaluated prompt", "evaluated"),
+                    questionary.Choice("Regenerate Base Prompt", "regenerate_base"),
+                    questionary.Choice("Regenerate Evaluated Prompt", "regenerate_evaluated"),
+                    questionary.Choice("Quit", "quit"),
+                ],
+                use_shortcuts=True, # Allows typing 'n', 'r', 'q'
+            ).ask_async()
 
-        
-
-        if next_action == "base":
-            keep_seed = await questionary.confirm("Keep the same seed?", default=False).ask_async()
-            number_of_images = 1
-            regenerate_mode = False
-        elif next_action == "evaluated":
-            keep_seed = await questionary.confirm("Keep the same seed?", default=False).ask_async()
-            number_of_images = 1
-            user_messages.set_base_prompt(current_prompt)
-            regenerate_mode = False
-        elif next_action == "regenerate_base":
-            number_of_images = int(await questionary.text(
-                "How many images?",
-                default="1",
-            ).ask_async())
-            keep_seed = False
-            regenerate_mode = True
-            #user_messages.set_base_prompt(current_prompt)
-        elif next_action == "regenerate_evaluated":
-            number_of_images = int(await questionary.text(
-                "How many images?",
-                default="1",
-            ).ask_async())
-            keep_seed = False
-            regenerate_mode = True
-            user_messages.set_base_prompt(current_prompt)
-        elif next_action == "quit":
-            console.print("Exiting playground.", style="bold yellow")
-            break
             
 
-        console.line() # Separator for next iteration
+            if next_action == "base":
+                keep_seed = await questionary.confirm("Keep the same seed?", default=False).ask_async()
+                number_of_images = 1
+                regenerate_mode = False
+            elif next_action == "evaluated":
+                keep_seed = await questionary.confirm("Keep the same seed?", default=False).ask_async()
+                number_of_images = 1
+                user_messages.set_base_prompt(current_prompt)
+                regenerate_mode = False
+            elif next_action == "regenerate_base":
+                number_of_images = int(await questionary.text(
+                    "How many images?",
+                    default="1",
+                ).ask_async())
+                keep_seed = False
+                regenerate_mode = True
+                #user_messages.set_base_prompt(current_prompt)
+            elif next_action == "regenerate_evaluated":
+                number_of_images = int(await questionary.text(
+                    "How many images?",
+                    default="1",
+                ).ask_async())
+                keep_seed = False
+                regenerate_mode = True
+                user_messages.set_base_prompt(current_prompt)
+            elif next_action == "quit":
+                console.print("Exiting playground.", style="bold yellow")
+                break
+        
+        # Only show line separator if we're not skipping
+        if not skip_next_action:
+            console.line() # Separator for next iteration
 
 
 if __name__ == "__main__":

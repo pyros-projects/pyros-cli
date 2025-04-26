@@ -16,6 +16,7 @@ Commands return a `CommandResult` object with:
 - `is_command`: Indicates if input was processed as a command
 - `should_continue`: Controls whether the main loop should continue
 - `should_generate`: Controls whether image generation should proceed
+- `should_reset_regenerate`: Controls whether to reset regenerate mode and return to prompt input
 - `data`: Optional data returned by the command (workflow properties, text, etc.)
 
 ### Command Registry
@@ -33,6 +34,7 @@ Commands return a `CommandResult` object with:
 **Usage**: `/help`  
 **Output**: Table showing all commands and descriptions  
 **Affects Generation**: No  
+**Return Flow**: Returns directly to prompt input without showing the "What next?" menu
 
 #### `/list-vars`
 **Description**: List all available prompt variables  
@@ -45,6 +47,23 @@ Commands return a `CommandResult` object with:
    - File path
    - Sample values (up to 5 random samples)
 **Affects Generation**: No  
+**Return Flow**: Returns directly to prompt input without showing the "What next?" menu
+
+#### `/history`
+**Description**: View and select from command and prompt history  
+**Implementation**: The `HistoryCommand` class displays an interactive table of historical prompts
+**Usage**: `/history [base-prompt|eval-prompt|command]`  
+**Parameters**:
+- No parameter: Shows all history items
+- `base-prompt`: Filters to show only base prompts
+- `eval-prompt`: Filters to show only evaluated prompts
+- `command`: Filters to show only commands
+**Output**:
+1. Table showing historical entries with timestamp, type, and message
+2. Interactive selector to choose an entry
+3. Sets the selected entry as the current prompt after confirmation
+**Affects Generation**: No  
+**Return Flow**: Returns directly to prompt input with the selected history item
 
 ### Workflow Control Commands
 
@@ -118,6 +137,7 @@ class MyCustomCommand(BaseCommand):
         return CommandResult(
             is_command=True,
             should_generate=True,  # Whether to proceed with generation
+            should_reset_regenerate=False,  # Whether to reset regenerate mode and return to prompt input
             data=None  # Optional data to return
         )
 ```
@@ -133,7 +153,17 @@ class MyCustomCommand(BaseCommand):
    - Continues with generation
    - Skips generation
    - Exits the application
+   - Resets regenerate mode and returns to prompt input
    - Modifies the workflow with the command's data
+
+## UX Flow for Command Result Flags
+
+Different combinations of command result flags create different UX flows:
+
+- `should_generate=false, should_continue=true`: Skip generation but continue in the current loop
+- `should_generate=false, should_continue=false`: Skip generation and break out of the current loop
+- `should_reset_regenerate=true`: Reset to prompt input mode, skipping the "What next?" menu
+- `data=WorkflowProperty`: Add workflow property to user_messages
 
 ## Variable System
 

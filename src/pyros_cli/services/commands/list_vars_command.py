@@ -93,4 +93,9 @@ class ListVarsCommand(BaseCommand):
             else:
                 console.print("[yellow]No values found.[/]")
                 
-        return CommandResult(is_command=True, should_generate=False) 
+        return CommandResult(
+            is_command=True, 
+            should_generate=False,
+            should_continue=False,
+            should_reset_regenerate=True
+        ) 

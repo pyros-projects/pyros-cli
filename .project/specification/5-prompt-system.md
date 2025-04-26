@@ -106,7 +106,7 @@ The variable substitution process:
 Commands use the `/command_name [arguments]` format, with a leading slash.
 
 ### Command Types
-- Information commands (e.g., `/help`, `/list-vars`)
+- Information commands (e.g., `/help`, `/list-vars`, `/history`)
 - Action commands (e.g., `/set_var`, `/clear`)
 - Workflow modification commands (e.g., `/steps`, `/cfg`)
 - System commands (e.g., `/exit`, `/gallery`)
@@ -120,12 +120,27 @@ Commands use the `/command_name [arguments]` format, with a leading slash.
    - The command may modify the prompt
    - The command may modify workflow properties
    - The command may trigger system actions
+   - The command may navigate back to prompt input (using `should_reset_regenerate`)
+
+### Command Result Flags
+- `is_command`: Indicates if input was processed as a command
+- `should_continue`: Controls whether the main loop should continue
+- `should_generate`: Controls whether image generation should proceed
+- `should_reset_regenerate`: Controls whether to reset regenerate mode and return to prompt input
+- `data`: Optional data returned by the command
 
 ### Command Registry
 - Commands are loaded from the `commands` directory
 - Each command is a Python module that extends `BaseCommand`
 - Commands can be added, removed, or modified without changing the core code
 - The system automatically discovers and registers commands
+
+### History Command
+The `/history` command provides a way to access and reuse previous prompts:
+- Displays a table of previously used prompts and commands
+- Can filter by type: base-prompt, eval-prompt, or command
+- Allows selection and re-use of past prompts
+- Returns directly to the prompt input with the selected history item
 
 ## Prompt Evaluation Process
 1. The user enters a base prompt

@@ -54,10 +54,16 @@ The CLI is implemented as an asynchronous loop in `start_cli()`:
 4. Enter main prompt loop:
    - Get user input
    - Process commands and variables
-   - Generate images
+   - Generate images (if applicable)
    - Show results
-   - Present action selection
-   - Repeat based on user choice
+   - Present action selection (unless bypassed by command)
+   - Repeat based on user choice or command result flags
+
+The main loop flow can be controlled by command result flags:
+- Commands can bypass generation with `should_generate=false`
+- Commands can break out of current iteration with `should_continue=false` 
+- Commands can set `should_reset_regenerate=true` to return directly to prompt input
+- Informational commands (like `/help`, `/history`, `/list-vars`) reset to prompt input after display
 
 ### Autocomplete System
 The autocomplete system is implemented in the `PromptCompleter` class:
@@ -92,12 +98,12 @@ Rich console output featuring:
 2. Prompt input via questionary with custom autocompletion
 3. Generation with real-time progress display via `listen_for_results()`
 4. Result display with option to view images via `display_final_image_os()`
-5. Next action selection via questionary select
-6. Repeat or exit based on user choice
+5. Next action selection via questionary select (can be skipped for some commands)
+6. Repeat or exit based on user choice or command result flags
 
 ## Error Handling
 - Connection issues to ComfyUI are detected and reported
 - Workflow file errors are identified with clear error messages
 - Invalid configurations are flagged with guidance on correction
 - Generation errors are displayed with context about the failing node
-- Clean exit on keyboard interrupt (Ctrl+C) 
+- Clean exit on keyboard interrupt (Ctrl+C)

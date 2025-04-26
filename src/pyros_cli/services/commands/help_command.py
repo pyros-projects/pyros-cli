@@ -42,4 +42,10 @@ class HelpCommand(BaseCommand):
         
         console.print(Panel(var_help, title="Prompt Variables", border_style="green"))
         
-        return CommandResult(is_command=True, should_generate=False) 
+        # Use the special flag to return to prompt input without proceeding to generation
+        return CommandResult(
+            is_command=True, 
+            should_generate=False, 
+            should_continue=False,
+            should_reset_regenerate=True
+        ) 
