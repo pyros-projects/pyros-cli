@@ -190,6 +190,12 @@ Usage:
 ```
 __variablename__ # will get replaced with a random entry of this variable
 __variablename:123__ # will get replaced with entry 123 of this variable
+
+# some provided prompt vars
+
+__75k__ # 75000 prompts
+__animal__ # some cute animals
+__builder/*__ # some building blocks
 ```
 
 
