@@ -42,6 +42,9 @@ def load_config() -> ComfyUISettings:
     load_dotenv(dotenv_path=dotenv_path)
 
     # Create settings instance with defaults, overridden by .env values
+    # DEFAULT_MODEL takes priority over MODEL_NAME for consistency with flock
+    model_name = os.getenv("DEFAULT_MODEL") or os.getenv("MODEL_NAME")
+    
     settings_data = {
         "host": os.getenv("COMFYUI_HOST", "127.0.0.1"),
         "port": os.getenv("COMFYUI_PORT", "8188"),
@@ -53,7 +56,7 @@ def load_config() -> ComfyUISettings:
         "denoise_node_id": os.getenv("COMFYUI_DENOISE_NODE_ID"),
         "denoise_node_property": os.getenv("COMFYUI_DENOISE_NODE_PROPERTY", "seed"),
         "ai_provider": os.getenv("AI_PROVIDER"),
-        "model_name": os.getenv("MODEL_NAME"),
+        "model_name": model_name,
     }
     try:
         return ComfyUISettings(**settings_data)

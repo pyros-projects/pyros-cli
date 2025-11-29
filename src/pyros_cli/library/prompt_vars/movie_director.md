@@ -1,0 +1,31 @@
+# A list of renowned, distinctive, and stylistically-varied movie directors whose names can be used to evoke a wide range of cinematic aesthetics in image prompts.
+Steven Spielberg
+Hayao Miyazaki
+Stanley Kubrick
+Sofia Coppola
+Wes Anderson
+Martin Scorsese
+Jean-Pierre Jeunet
+Quentin Tarantino
+Akira Kurosawa
+Guillermo del Toro
+Kathryn Bigelow
+Spike Lee
+David Lynch
+Greta Gerwig
+Alfonso Cuarón
+Park Chan-wook
+Tim Burton
+Mira Nair
+George Miller
+Ava DuVernay
+James Cameron
+Chloé Zhao
+Christopher Nolan
+Pedro Almodóvar
+Ang Lee
+Jordan Peele
+Denis Villeneuve
+Jane Campion
+Baz Luhrmann
+Zhang Yimou

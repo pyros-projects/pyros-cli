@@ -19,6 +19,85 @@ from pyros_cli.models.user_messages import UserMessages
 console = Console() # Make console available for final print
 
 
+# --- Rich Live Patch for crop_above support ---
+# This patch allows Rich's Live widget to crop content from the TOP instead of the bottom,
+# keeping the progress bar and status visible while the preview image gets cropped if too tall.
+_live_patch_applied = False
+
+
+def _ensure_live_crop_above() -> None:
+    """Monkeypatch rich.live_render to support 'crop_above' overflow.
+    
+    This keeps the bottom content (progress bar, status) visible while
+    cropping the top (preview image) when content exceeds terminal height.
+    """
+    global _live_patch_applied
+    if _live_patch_applied:
+        return
+    try:
+        from typing import Literal as _Literal
+        from rich import live_render as _lr
+    except Exception:
+        return
+
+    # Extend the accepted literal at runtime
+    current_args = getattr(_lr.VerticalOverflowMethod, "__args__", ())
+    if "crop_above" not in current_args:
+        _lr.VerticalOverflowMethod = _Literal[
+            "crop", "crop_above", "ellipsis", "visible"
+        ]  # type: ignore[assignment]
+
+    if getattr(_lr.LiveRender.__rich_console__, "_pyros_crop_above", False):
+        _live_patch_applied = True
+        return
+
+    Segment = _lr.Segment
+    Text = _lr.Text
+    loop_last = _lr.loop_last
+
+    def _patched_rich_console(self, console, options):
+        renderable = self.renderable
+        style = console.get_style(self.style)
+        lines = console.render_lines(renderable, options, style=style, pad=False)
+        shape = Segment.get_shape(lines)
+
+        _, height = shape
+        max_height = options.size.height
+        if height > max_height:
+            if self.vertical_overflow == "crop":
+                lines = lines[:max_height]
+                shape = Segment.get_shape(lines)
+            elif self.vertical_overflow == "crop_above":
+                lines = lines[-max_height:]
+                shape = Segment.get_shape(lines)
+            elif self.vertical_overflow == "ellipsis" and max_height > 0:
+                lines = lines[: (max_height - 1)]
+                overflow_text = Text(
+                    "...",
+                    overflow="crop",
+                    justify="center",
+                    end="",
+                    style="live.ellipsis",
+                )
+                lines.append(list(console.render(overflow_text)))
+                shape = Segment.get_shape(lines)
+        self._shape = shape
+
+        new_line = Segment.line()
+        for last, line in loop_last(lines):
+            yield from line
+            if not last:
+                yield new_line
+
+    _patched_rich_console._pyros_crop_above = True  # type: ignore[attr-defined]
+    _lr.LiveRender.__rich_console__ = _patched_rich_console
+    _live_patch_applied = True
+
+
+# Apply the patch on module import
+_ensure_live_crop_above()
+
+
 # --- Workflow Handling ---
 
 def load_workflow(filepath: str) -> ComfyUIWorkflow:
@@ -150,8 +229,9 @@ async def listen_for_results(settings: ComfyUISettings, prompt_id: str, client_i
         items.append(status_text)
         return Group(*items)
 
-    # The Live context manager
-    with Live(make_renderable(), refresh_per_second=5, vertical_overflow="visible") as live:
+    # The Live context manager - using crop_above to keep progress bar visible
+    # while cropping preview image from top if it exceeds terminal height
+    with Live(make_renderable(), refresh_per_second=5, vertical_overflow="crop_above") as live:
         try:
             async with websockets.connect(ws_url, ping_interval=10, ping_timeout=30) as ws:
                 status_text.plain = "WebSocket connected. Waiting for messages..."

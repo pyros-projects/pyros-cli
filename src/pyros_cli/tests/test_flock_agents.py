@@ -7,7 +7,12 @@ for the new blackboard-based architecture.
 import pytest
 from unittest.mock import MagicMock, AsyncMock, patch
 
-from pyros_cli.models.flock_artifacts import PromptEnhanceRequest, EnhancedPrompt
+from pyros_cli.models.flock_artifacts import (
+    PromptEnhanceRequest, 
+    EnhancedPrompt,
+    PromptVarGenerationRequest,
+    GeneratedPromptVar,
+)
 
 
 class TestPromptEnhanceRequest:
@@ -302,4 +307,135 @@ class TestEnhancePromptTool:
                 
                 # Should return original prompt as fallback
                 assert result == "Original prompt"
+
+
+class TestPromptVarGenerationRequest:
+    """Tests for PromptVarGenerationRequest artifact model."""
+    
+    def test_creates_valid_request(self):
+        """Test creating a generation request with all fields."""
+        request = PromptVarGenerationRequest(
+            variable_name="cat_race",
+            full_prompt="A cute __cat_race__ sitting in a garden"
+        )
+        assert request.variable_name == "cat_race"
+        assert "__cat_race__" in request.full_prompt
+    
+    def test_request_serialization(self):
+        """Test that the model serializes correctly."""
+        request = PromptVarGenerationRequest(
+            variable_name="art_style",
+            full_prompt="A painting in __art_style__ style"
+        )
+        data = request.model_dump()
+        assert data["variable_name"] == "art_style"
+        assert data["full_prompt"] == "A painting in __art_style__ style"
+
+
+class TestGeneratedPromptVar:
+    """Tests for GeneratedPromptVar artifact model."""
+    
+    def test_creates_valid_response_with_min_values(self):
+        """Test creating a response with minimum 20 values."""
+        values = [f"value_{i}" for i in range(20)]
+        response = GeneratedPromptVar(
+            variable_name="cat_race",
+            description="Various cat breeds for image generation",
+            values=values
+        )
+        assert response.variable_name == "cat_race"
+        assert len(response.values) == 20
+        assert "Various cat breeds" in response.description
+    
+    def test_creates_response_with_more_than_min_values(self):
+        """Test that more than 20 values is accepted."""
+        values = [f"value_{i}" for i in range(30)]
+        response = GeneratedPromptVar(
+            variable_name="emotion",
+            description="Human emotions",
+            values=values
+        )
+        assert len(response.values) == 30
+    
+    def test_rejects_less_than_min_values(self):
+        """Test that less than 20 values raises validation error."""
+        from pydantic import ValidationError
+        
+        values = [f"value_{i}" for i in range(10)]  # Only 10 values
+        with pytest.raises(ValidationError):
+            GeneratedPromptVar(
+                variable_name="test",
+                description="Test description",
+                values=values
+            )
+    
+    def test_response_serialization(self):
+        """Test that the model serializes correctly."""
+        values = [f"breed_{i}" for i in range(20)]
+        response = GeneratedPromptVar(
+            variable_name="dog_breed",
+            description="Dog breeds",
+            values=values
+        )
+        data = response.model_dump()
+        assert data["variable_name"] == "dog_breed"
+        assert data["description"] == "Dog breeds"
+        assert len(data["values"]) == 20
+
+
+class TestPromptVarGeneratorAgentRegistration:
+    """Tests for prompt_var_generator agent registration."""
+    
+    def test_register_agent_calls_builder_methods(self):
+        """Test that registration uses the correct builder pattern."""
+        from pyros_cli.agents.prompt_var_generator_agent import (
+            register_prompt_var_generator_agent
+        )
+        
+        mock_flock = MagicMock()
+        mock_builder = MagicMock()
+        mock_flock.agent.return_value = mock_builder
+        mock_builder.description.return_value = mock_builder
+        mock_builder.consumes.return_value = mock_builder
+        mock_builder.publishes.return_value = mock_builder
+        
+        register_prompt_var_generator_agent(mock_flock)
+        
+        mock_flock.agent.assert_called_once_with("prompt_var_generator")
+        mock_builder.description.assert_called_once()
+        mock_builder.consumes.assert_called_once_with(PromptVarGenerationRequest)
+        mock_builder.publishes.assert_called_once_with(GeneratedPromptVar)
+
+
+class TestSavePromptVar:
+    """Tests for save_prompt_var helper function."""
+    
+    def test_save_prompt_var_creates_file(self, tmp_path):
+        """Test that save_prompt_var creates a properly formatted file."""
+        from pyros_cli.models.prompt_vars import save_prompt_var
+        import os
+        
+        # Temporarily override the prompt_vars_dir
+        with patch('pyros_cli.models.prompt_vars.get_prompt_vars_dir') as mock_dir:
+            mock_dir.return_value = str(tmp_path)
+            
+            values = ["Persian", "Siamese", "Maine Coon", "British Shorthair"]
+            file_path = save_prompt_var(
+                variable_name="cat_breed",
+                description="Different cat breeds",
+                values=values
+            )
+            
+            # Check file was created
+            assert os.path.exists(file_path)
+            assert file_path.endswith("cat_breed.md")
+            
+            # Check content
+            with open(file_path) as f:
+                content = f.read()
+            
+            assert "# Different cat breeds" in content
+            assert "Persian" in content
+            assert "Siamese" in content
+            assert "Maine Coon" in content
 

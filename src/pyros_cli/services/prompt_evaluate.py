@@ -94,7 +94,7 @@ class CommandRegistry:
         console.line()    
         # Not a command, process prompt variables
         config = load_config()
-        if config.ai_provider and ">" in user_input:
+        if config.model_name and ">" in user_input:
             user_input = evaluate_agents(user_input)
         processed_prompt = substitute_prompt_vars(user_input)
         
@@ -106,12 +106,30 @@ class CommandRegistry:
         # No substitutions needed, continue with regular prompt flow
         return CommandResult(is_command=False)
 
-def evaluate_agents(user_input: str):
-    """Evaluate AI agents"""
+def evaluate_agents(user_input: str) -> str:
+    """Evaluate AI agents to enhance the prompt.
+    
+    Args:
+        user_input: Input in format "prompt > instruction"
+        
+    Returns:
+        The enhanced prompt string
+    """
+    config = load_config()
+    if not config.model_name:
+        console.print("[yellow]Warning: No AI model configured. Skipping agent enhancement.[/yellow]")
+        return user_input.split(">")[0].strip()
+    
     prompt = user_input.split(">")[0].strip()
     agent_instruction = user_input.split(">")[1].strip()
-    prompt, agent_instruction = create_flock(prompt, agent_instruction)
-    return prompt, agent_instruction
+    
+    enhanced_prompt = create_flock(
+        model=config.model_name,
+        prompt=prompt,
+        agent_instruction=agent_instruction
+    )
+    
+    return enhanced_prompt if enhanced_prompt else prompt
 
 
 # Function to evaluate a user prompt

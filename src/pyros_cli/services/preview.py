@@ -1,15 +1,17 @@
 # preview.py
 import asyncio
-from PIL import Image
-from loguru import logger
+import contextlib
 import io
 import os
 import platform
+import subprocess
 from typing import Optional, Union, TYPE_CHECKING
+
+from PIL import Image
+from loguru import logger
 from rich.text import Text
-from rich.console import Console, ConsoleOptions, RenderResult # Added imports
-from rich.segment import Segment                             # Added import
-import contextlib                                           # Added import
+from rich.console import Console, ConsoleOptions, RenderResult
+from rich.segment import Segment
 
 
 # Try importing term-image
@@ -112,10 +114,10 @@ async def display_terminal_preview(image_bytes: bytes):
 
         # Use asyncio.to_thread to run the potentially blocking term-image display
         def _display():
-            img = AutoImage(image) # Let term-image handle terminal specifics
-            # You might need to adjust size based on terminal width/height
-            # img.set_size(width=80) # Example: Set fixed width
-            print("\n--- Preview ---") # Add separator
+            img = AutoImage(image)
+            # Set preview size - larger = more detail with BlockImage rendering
+            img.set_size(width=80)
+            print("\n--- Preview ---")
             img.draw()
             print("---------------\n")
 
@@ -146,8 +148,11 @@ async def get_preview_renderable(image_bytes: bytes) -> Optional[Union[TermImage
 
         def _process_image():
             term_image_obj = AutoImage(image)
+            # Set preview size - larger = more detail with BlockImage rendering
+            # 80 columns gives good detail while fitting most terminal widths
+            term_image_obj.set_size(width=80)
             # Wrap the term_image object in our renderable class
-            return TermImageRenderable(term_image_obj) # <-- Return the wrapper
+            return TermImageRenderable(term_image_obj)
 
         renderable = await asyncio.to_thread(_process_image)
         logger.debug("Created terminal image renderable wrapper.")
@@ -169,16 +174,19 @@ def display_final_image_os(image_path: str):
         system = platform.system()
         if system == "Windows":
             os.startfile(image_path)
-        elif system == "Darwin": # macOS
-            subprocess.run(["open", image_path], check=True)
-        else: # Linux and other Unix-like
-            subprocess.run(["xdg-open", image_path], check=True)
+        elif system == "Darwin":  # macOS
+            subprocess.run(["open", image_path], check=True, stderr=subprocess.DEVNULL)
+        else:  # Linux and other Unix-like (including WSL2)
+            # Suppress stderr to avoid D-Bus noise in WSL2 environments
+            subprocess.Popen(
+                ["xdg-open", image_path],
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL,
+                start_new_session=True  # Detach from parent process
+            )
         logger.success("Final image opened in default viewer.")
     except FileNotFoundError:
-         logger.error(f"Command not found to open image viewer ('open' or 'xdg-open'). Please open manually: {image_path}")
+        logger.error(f"Command not found to open image viewer ('open' or 'xdg-open'). Please open manually: {image_path}")
     except Exception as e:
         logger.error(f"Failed to open image with OS default viewer: {e}")
         logger.warning(f"Please open the image manually: {image_path}")
-
-# Import subprocess at the top if you use the OS viewer part
-import subprocess

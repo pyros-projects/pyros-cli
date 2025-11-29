@@ -12,6 +12,44 @@ class PromptVars(BaseModel):
     values: list[str] = []
 
 
+def get_prompt_vars_dir() -> str:
+    """Get the absolute path to the prompt_vars directory."""
+    return os.path.abspath(os.path.join(CURRENT_DIR, "library/prompt_vars"))
+
+
+def save_prompt_var(variable_name: str, description: str, values: list[str]) -> str:
+    """Save a new prompt variable to the library.
+    
+    Args:
+        variable_name: The name of the variable (without underscores, e.g., 'cat_race')
+        description: A description of what this variable represents
+        values: List of values for the variable
+        
+    Returns:
+        The file path where the variable was saved
+    """
+    prompt_vars_dir = get_prompt_vars_dir()
+    os.makedirs(prompt_vars_dir, exist_ok=True)
+    
+    # Create the file path
+    file_path = os.path.join(prompt_vars_dir, f"{variable_name}.md")
+    
+    # Build the file content
+    lines = []
+    if description:
+        # Add description as a comment
+        lines.append(f"# {description}")
+    
+    # Add all values
+    lines.extend(values)
+    
+    # Write to file
+    with open(file_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+    
+    return file_path
+
+
 
 def load_prompt_vars() -> dict[str, PromptVars]:
     """Load prompt variables from the library/prompt_vars directory"""

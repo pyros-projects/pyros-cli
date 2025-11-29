@@ -38,3 +38,36 @@ class EnhancedPrompt(BaseModel):
         description="The original prompt that was enhanced (for reference)"
     )
 
+
+@flock_type
+class PromptVarGenerationRequest(BaseModel):
+    """Request to generate values for a missing prompt variable.
+    
+    Published when a prompt contains a variable like __cat_race__ that
+    doesn't exist in the prompt_vars library.
+    """
+    variable_name: str = Field(
+        description="The name of the missing variable (without underscores, e.g., 'cat_race')"
+    )
+    full_prompt: str = Field(
+        description="The complete prompt containing the variable, for context"
+    )
+
+
+@flock_type
+class GeneratedPromptVar(BaseModel):
+    """Output artifact containing generated values for a prompt variable.
+    
+    Published by the prompt_var_generator agent.
+    """
+    variable_name: str = Field(
+        description="The name of the variable these values are for"
+    )
+    description: str = Field(
+        description="A short description of what this variable represents"
+    )
+    values: list[str] = Field(
+        min_length=20,
+        description="List of generated values for the variable (minimum 20 items)"
+    )
+
