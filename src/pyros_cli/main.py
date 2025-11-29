@@ -24,7 +24,7 @@ from pyros_cli.utils.comfy_utils import (
 )
 from pyros_cli.services.preview import display_final_image_os
 from pyros_cli.utils.cli_helper import banner_text # Your banner function
-from flock.cli.utils import print_header, print_error, print_success # Or use rich directly
+from pyros_cli.utils.cli_helper import print_header, print_error, print_success
 from pyros_cli.services.prompt_evaluate import evaluate_prompt, CommandRegistry
 from pyros_cli.models.prompt_vars import load_prompt_vars
 

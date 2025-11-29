@@ -1,18 +1,37 @@
-from flock.core import FlockFactory
+"""Prompt enhancement agent using the new flock blackboard architecture.
 
-DESCRIPTION = """
-An agent that enhances user prompts.
-The agent will take a user prompt and user instruction and enhance it by adding more details, context, and other information.
-The resulting enhanced prompt when used with an image generation model will result in an absolutely stunning image.
-The agent adheres to best practices for prompt engineering for image generation and generates perfect prompts.
+This agent consumes PromptEnhanceRequest artifacts and publishes
+EnhancedPrompt artifacts to the blackboard.
 """
 
-def create_enhance_agent():
-    agent = FlockFactory.create_default_agent(
-        name="enhance_agent",
-        description=DESCRIPTION,
-        input="user_prompt: str, user_instruction: str",
-        output="enhanced_prompt: str",
-    )
+from flock import Flock
 
-    return agent
+from pyros_cli.models.flock_artifacts import PromptEnhanceRequest, EnhancedPrompt
+
+
+DESCRIPTION = """
+An agent that enhances user prompts for image generation.
+
+The agent takes a user prompt and optional instructions, then enhances it by:
+- Adding rich visual details (lighting, composition, atmosphere)
+- Incorporating artistic style descriptors
+- Optimizing for image generation model comprehension
+- Following best practices for prompt engineering
+
+The resulting enhanced prompt will produce stunning, high-quality images
+when used with ComfyUI or similar image generation systems.
+"""
+
+
+def register_enhance_agent(flock: Flock) -> None:
+    """Register the enhance agent with the flock orchestrator.
+    
+    Args:
+        flock: The Flock orchestrator instance to register with.
+    """
+    (
+        flock.agent("enhance_agent")
+        .description(DESCRIPTION)
+        .consumes(PromptEnhanceRequest)
+        .publishes(EnhancedPrompt)
+    )

@@ -6,7 +6,7 @@ from rich.syntax import Syntax
 
 from pyros_cli.services.commands.base_command import BaseCommand, CommandResult
 from pyros_cli.models.prompt_vars import load_prompt_vars
-from flock.cli.utils import print_subheader
+from pyros_cli.utils.cli_helper import print_subheader
 
 console = Console()
 

@@ -5,15 +5,10 @@ from pydantic import BaseModel, ValidationError
 from dotenv import load_dotenv, set_key
 import questionary
 from rich.console import Console
-from flock.cli.utils import print_error, print_success, print_subheader # Assuming these helpers exist or replace with rich print
+from pyros_cli.utils.cli_helper import print_error, print_success, print_subheader
 import aiohttp # Use aiohttp for async connection check
 
 console = Console()
-
-# If flock helpers aren't available, define simple replacements:
-# def print_error(msg): console.print(f"[bold red]Error:[/bold red] {msg}")
-# def print_success(msg): console.print(f"[bold green]Success:[/bold green] {msg}")
-# def print_subheader(msg): console.print(f"\n[bold cyan]{msg}[/bold cyan]")
 
 
 class ComfyUISettings(BaseModel):
