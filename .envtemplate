@@ -26,3 +26,21 @@
 
 
 # OPENAI_API_KEY=xxx
+
+
+# ============================================================================
+# Local Mode Configuration (pyros-local)
+# ============================================================================
+# Run completely offline using local models - no ComfyUI or cloud APIs needed!
+# Install local dependencies: pip install pyros-cli[local]
+
+# Local LLM for prompt enhancement and variable generation
+# Default: Qwen/Qwen3-4B-Instruct-2507 (auto-downloads from HuggingFace)
+; QWEN_4B_PATH=/path/to/local/qwen3-4b
+
+# Local image generation model
+# Default: Tongyi-MAI/Z-Image-Turbo (auto-downloads from HuggingFace)
+; Z_IMAGE_PATH=/path/to/local/z-image
+
+# Output directory for generated images
+; LOCAL_OUTPUT_DIR=./output

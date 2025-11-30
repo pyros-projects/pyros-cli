@@ -1,0 +1,21 @@
+# Auto-generated values for digital_art_artists
+cyberpunk
+neon_tribal
+glitch_realism
+surreal_vector
+hyper_detailed
+bioluminescent
+quantum_illustration
+dreamcore
+futuristic_organic
+data_sculpture
+mystic_aura
+fluid_dynamic
+retro_futurism
+vaporwave
+post_apocalyptic
+ethereal_lineart
+nano_paint
+deep_space_aesthetic
+meme_craft
+animated_static
